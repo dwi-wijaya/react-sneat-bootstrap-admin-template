@@ -17061,6 +17061,9 @@ html:not(.layout-menu-fixed) .menu-inner-shadow {
 .layout-navbar,
 .content-footer {
   flex: 0 0 auto;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .layout-page {
