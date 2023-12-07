@@ -1,12 +1,9 @@
-// Import necessary React modules
 import React, { useEffect } from 'react';
 import Sidebar from './Sidebar';
 import Navbar from './Navbar';
-import Content from './Content';
 import Footer from './Footer';
 
-// Define the main layout component
-const Layout = () => {
+const Layout = ({ children }) => {
   useEffect(() => {
     Main();
   },[])
@@ -17,7 +14,7 @@ const Layout = () => {
         <div className="layout-page">
           <Navbar />
           <div className="content-wrapper">
-            <Content />
+            {children}
             <Footer />
           </div>
         </div>
@@ -26,7 +23,4 @@ const Layout = () => {
   );
 };
 
-
-
-// Export the main Layout component
 export default Layout;
