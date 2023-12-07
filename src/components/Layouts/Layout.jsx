@@ -18,6 +18,7 @@ const Layout = ({ children }) => {
             <Footer />
           </div>
         </div>
+      <div className="layout-overlay layout-menu-toggle"></div>
       </div>
     </div>
   );
