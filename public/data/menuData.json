@@ -1,0 +1,381 @@
+[
+    {
+        "header": "",
+        "items": [
+            {
+                "text": "Dashboard",
+                "icon": "bx bx-home",
+                "available": true,
+                "link": "/"
+            },
+            {
+                "text": "Layouts",
+                "icon": "bx bx-layout",
+                "available": true,
+                "link": "/ui",
+                "submenu": [
+                    {
+                        "text": "Without menu",
+                        "available": true,
+                        "link": "/without-menu"
+                    },
+                    {
+                        "text": "Without navbar",
+                        "available": true,
+                        "link": "/without-navbar"
+                    },
+                    {
+                        "text": "Container",
+                        "available": true,
+                        "link": "/container"
+                    },
+                    {
+                        "text": "Fluid",
+                        "available": true,
+                        "link": "/fluid"
+                    },
+                    {
+                        "text": "Blank",
+                        "available": true,
+                        "link": "/blank"
+                    }
+                ]
+            },
+            {
+                "text": "Front Pages",
+                "icon": "bx bx-store",
+                "available": false,
+                "link": "",
+                "submenu": [
+                    {
+                        "text": "Landing",
+                        "available": true,
+                        "link": "https://demos.themeselection.com/sneat-bootstrap-html-admin-template/html/front-pages/landing-page.html"
+                    },
+                    {
+                        "text": "Pricing",
+                        "available": true,
+                        "link": "https://demos.themeselection.com/sneat-bootstrap-html-admin-template/html/front-pages/pricing-page.html"
+                    },
+                    {
+                        "text": "Payment",
+                        "available": true,
+                        "link": "https://demos.themeselection.com/sneat-bootstrap-html-admin-template/html/front-pages/payment-page.html"
+                    },
+                    {
+                        "text": "Checkout",
+                        "available": true,
+                        "link": "https://demos.themeselection.com/sneat-bootstrap-html-admin-template/html/front-pages/checkput-page.html"
+                    },
+                    {
+                        "text": "Help Center",
+                        "available": true,
+                        "link": "https://demos.themeselection.com/sneat-bootstrap-html-admin-template/html/front-pages/help-center-landing.html"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "header": "APPS & PAGES",
+        "items": [
+            {
+                "text": "Email",
+                "icon": "bx bx-envelope",
+                "available": false,
+                "link": "https://demos.themeselection.com/sneat-bootstrap-html-admin-template/html/vertical-menu-template/app-email.html"
+            },
+            {
+                "text": "Chat",
+                "icon": "bx bx-chat",
+                "available": false,
+                "link": "https://demos.themeselection.com/sneat-bootstrap-html-admin-template/html/vertical-menu-template/app-chat.html"
+            },
+            {
+                "text": "Calendar",
+                "icon": "bx bx-calendar",
+                "available": false,
+                "link": "https://demos.themeselection.com/sneat-bootstrap-html-admin-template/html/vertical-menu-template/app-calendar.html"
+            },
+            {
+                "text": "Kanban",
+                "icon": "bx bx-grid",
+                "available": false,
+                "link": "https://demos.themeselection.com/sneat-bootstrap-html-admin-template/html/vertical-menu-template/app-kanban.html"
+            },
+            {
+                "text": "Pages",
+                "icon": "bx bx-dock-top",
+                "available": true,
+                "link": "",
+                "submenu": [
+                    {
+                        "text": "Account Settings",
+                        "available": true,
+                        "link": "/account/settings"
+                    },
+                    {
+                        "text": "Account",
+                        "available": true,
+                        "link": "/account"
+                    },
+                    {
+                        "text": "Notification",
+                        "available": true,
+                        "link": "/notifications"
+                    },
+                    {
+                        "text": "Connetctions",
+                        "available": true,
+                        "link": "/connections"
+                    }
+                ]
+            },
+            {
+                "text": "Authentication",
+                "icon": "bx bx-lock-open-alt",
+                "available": true,
+                "link": "",
+                "submenu": [
+                    {
+                        "text": "Login",
+                        "available": true,
+                        "link": "/login"
+                    },
+                    {
+                        "text": "Register",
+                        "available": true,
+                        "link": "/register"
+                    },
+                    {
+                        "text": "Forgot Password",
+                        "available": true,
+                        "link": "/forgot-password"
+                    }
+                ]
+            },
+            {
+                "text": "Misc",
+                "icon": "bx bx-cube-alt",
+                "available": true,
+                "link": "",
+                "submenu": [
+                    {
+                        "text": "Error",
+                        "available": true,
+                        "link": "/error"
+                    },
+                    {
+                        "text": "Under Maintenance",
+                        "available": true,
+                        "link": "/under-maintenance"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "header": "Components",
+        "items": [
+            {
+                "text": "User interface",
+                "icon": "bx bx-box",
+                "available": true,
+                "link": "",
+                "submenu": [
+                    {
+                        "text": "Accordion",
+                        "available": true,
+                        "link": "/accordion"
+                    },
+                    {
+                        "text": "Alerts",
+                        "available": true,
+                        "link": "/alerts"
+                    },
+                    {
+                        "text": "Badges",
+                        "available": true,
+                        "link": "/badges"
+                    },
+                    {
+                        "text": "Buttons",
+                        "available": true,
+                        "link": "/buttons"
+                    },
+                    {
+                        "text": "Cards",
+                        "available": true,
+                        "link": "/cards"
+                    },
+                    {
+                        "text": "Carrousel",
+                        "available": true,
+                        "link": "/carrousel"
+                    },
+                    {
+                        "text": "Collapse",
+                        "available": true,
+                        "link": "/collapse"
+                    },
+                    {
+                        "text": "Dropdown",
+                        "available": true,
+                        "link": "/dropdown"
+                    },
+                    {
+                        "text": "List Group",
+                        "available": true,
+                        "link": "/list-group"
+                    },
+                    {
+                        "text": "Modals",
+                        "available": true,
+                        "link": "/modals"
+                    },
+                    {
+                        "text": "Navbar",
+                        "available": true,
+                        "link": "/navbar"
+                    },
+                    {
+                        "text": "Pagination & Breadcrumbs",
+                        "available": true,
+                        "link": "/pagination-breadcrumbs"
+                    },
+                    {
+                        "text": "Progress",
+                        "available": true,
+                        "link": "/progress"
+                    },
+                    {
+                        "text": "Spinners",
+                        "available": true,
+                        "link": "/spinners"
+                    },
+                    {
+                        "text": "Tabs & Pills",
+                        "available": true,
+                        "link": "/tabs-pills"
+                    },
+                    {
+                        "text": "Tooltips & popovers",
+                        "available": true,
+                        "link": "/tooltips-popovers"
+                    },
+                    {
+                        "text": "Typography",
+                        "available": true,
+                        "link": "/typography"
+                    }
+                ]
+            },
+            {
+                "text": "Extended UI",
+                "icon": "bx bx-copy",
+                "available": true,
+                "link": "/extended-ui",
+                "submenu": [
+                    {
+                        "text": "Perfect Scrollbar",
+                        "available": true,
+                        "link": "/perfect-scrollbar"
+                    },
+                    {
+                        "text": "Text Divider",
+                        "available": true,
+                        "link": "/text-divider"
+                    }
+                ]
+            },
+            {
+                "text": "Boxicons",
+                "icon": "bx bx-table",
+                "available": true,
+                "link": "/boxicons"
+            }
+        ]
+    },
+    {
+        "header": "FORMS & TABLES",
+        "items": [
+            {
+                "text": "Form Elements",
+                "icon": "bx bx-detail",
+                "available": true,
+                "link": "",
+                "submenu": [
+                    {
+                        "text": "Basic Input",
+                        "available": true,
+                        "link": "/basic-input"
+                    },
+                    {
+                        "text": "Input Groups",
+                        "available": true,
+                        "link": "/input-groups"
+                    }
+                ]
+            },
+            {
+                "text": "Form Layout",
+                "icon": "bx bx-detail",
+                "available": true,
+                "link": "",
+                "submenu": [
+                    {
+                        "text": "Vertical Form",
+                        "available": true,
+                        "link": "/vertical-form"
+                    },
+                    {
+                        "text": "Horizontal Form",
+                        "available": true,
+                        "link": "/horizontal-form"
+                    }
+                ]
+            },
+            {
+                "text": "Validation",
+                "icon": "bx bx-list-check",
+                "available": false,
+                "link": "https://demos.themeselection.com/sneat-bootstrap-html-admin-template/html/vertical-menu-template/form-validation.html"
+            },
+            {
+                "text": "Tables",
+                "icon": "bx bx-table",
+                "available": true,
+                "link": "/tables"
+            },
+            {
+                "text": "Datatablse",
+                "icon": "bx bx-grid",
+                "available": false,
+                "link": "https://demos.themeselection.com/sneat-bootstrap-html-admin-template/html/vertical-menu-template/tables-datatables-basic.html"
+            }
+        ]
+    },
+    {
+        "header": "MISC",
+        "items": [
+            {
+                "text": "Support Sneat",
+                "icon": "bx bx-support",
+                "available": true,
+                "link": "https://github.com/themeselection/sneat-html-admin-template-free/issues"
+            },
+            {
+                "text": "Support Engineer",
+                "icon": "bx bx-support",
+                "available": true,
+                "link": "https://github.com/11Dwiwijaya/react-sneat-bootstrap-admin-template/issues"
+            },
+            {
+                "text": "Documentation",
+                "icon": "bx bx-file",
+                "available": true,
+                "link": "https://demos.themeselection.com/sneat-bootstrap-html-admin-template/documentation/"
+            }
+        ]
+    }
+]
