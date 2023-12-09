@@ -1,6 +1,5 @@
-import React from "react";
 import { useLocation } from "react-router-dom";
-import Layout from "./Layouts/Layout";
+import Layout from "./layouts/Layout";
 import AppRoutes from "./router/AppRoutes";
 import { Blank } from "./layouts/Blank";
 
@@ -10,9 +9,9 @@ function App() {
   return (
     <>
       {isAuthPath ? (
-        <Blank>
-          <AppRoutes />
-        </Blank>
+        <AppRoutes>
+            <Blank/>
+          </AppRoutes>
       ) : (
         <Layout>
           <AppRoutes />
