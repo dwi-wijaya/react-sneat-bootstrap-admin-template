@@ -104,30 +104,25 @@
                 "link": "https://demos.themeselection.com/sneat-bootstrap-html-admin-template/html/vertical-menu-template/app-kanban.html"
             },
             {
-                "text": "Pages",
+                "text": "Account Setting",
                 "icon": "bx bx-dock-top",
                 "available": true,
                 "link": "",
                 "submenu": [
                     {
-                        "text": "Account Settings",
+                        "text": "Account",
                         "available": true,
                         "link": "/account/settings"
                     },
                     {
-                        "text": "Account",
-                        "available": true,
-                        "link": "/account"
-                    },
-                    {
                         "text": "Notification",
                         "available": true,
-                        "link": "/notifications"
+                        "link": "/account/notifications"
                     },
                     {
                         "text": "Connetctions",
                         "available": true,
-                        "link": "/connections"
+                        "link": "/account/connections"
                     }
                 ]
             },
@@ -140,17 +135,17 @@
                     {
                         "text": "Login",
                         "available": true,
-                        "link": "/login"
+                        "link": "/auth/login"
                     },
                     {
                         "text": "Register",
                         "available": true,
-                        "link": "/register"
+                        "link": "/auth/register"
                     },
                     {
                         "text": "Forgot Password",
                         "available": true,
-                        "link": "/forgot-password"
+                        "link": "/auth/forgot-password"
                     }
                 ]
             },
@@ -186,87 +181,92 @@
                     {
                         "text": "Accordion",
                         "available": true,
-                        "link": "/accordion"
+                        "link": "/ui/accordion"
                     },
                     {
                         "text": "Alerts",
                         "available": true,
-                        "link": "/alerts"
+                        "link": "/ui/alerts"
                     },
                     {
                         "text": "Badges",
                         "available": true,
-                        "link": "/badges"
+                        "link": "/ui/badges"
                     },
                     {
                         "text": "Buttons",
                         "available": true,
-                        "link": "/buttons"
+                        "link": "/ui/buttons"
                     },
                     {
                         "text": "Cards",
                         "available": true,
-                        "link": "/cards"
+                        "link": "/ui/cards"
                     },
                     {
                         "text": "Carrousel",
                         "available": true,
-                        "link": "/carrousel"
+                        "link": "/ui/carousel"
                     },
                     {
                         "text": "Collapse",
                         "available": true,
-                        "link": "/collapse"
+                        "link": "/ui/collapse"
                     },
                     {
                         "text": "Dropdown",
                         "available": true,
-                        "link": "/dropdown"
+                        "link": "/ui/dropdown"
                     },
                     {
                         "text": "List Group",
                         "available": true,
-                        "link": "/list-group"
+                        "link": "/ui/list-group"
                     },
                     {
                         "text": "Modals",
                         "available": true,
-                        "link": "/modals"
+                        "link": "/ui/modals"
                     },
                     {
                         "text": "Navbar",
                         "available": true,
-                        "link": "/navbar"
+                        "link": "/ui/navbar"
                     },
                     {
                         "text": "Pagination & Breadcrumbs",
                         "available": true,
-                        "link": "/pagination-breadcrumbs"
+                        "link": "/ui/pagination-breadcrumbs"
                     },
                     {
                         "text": "Progress",
                         "available": true,
-                        "link": "/progress"
+                        "link": "/ui/progress"
                     },
                     {
                         "text": "Spinners",
                         "available": true,
-                        "link": "/spinners"
+                        "link": "/ui/spinners"
                     },
                     {
                         "text": "Tabs & Pills",
                         "available": true,
-                        "link": "/tabs-pills"
+                        "link": "/ui/tabs-pills"
+                    },
+                    {
+                        "text": "Toasts",
+                        "available": true,
+                        "link": "/ui/toasts"
                     },
                     {
                         "text": "Tooltips & popovers",
                         "available": true,
-                        "link": "/tooltips-popovers"
+                        "link": "/ui/tooltips-popovers"
                     },
                     {
                         "text": "Typography",
                         "available": true,
-                        "link": "/typography"
+                        "link": "/ui/typography"
                     }
                 ]
             },
@@ -279,12 +279,12 @@
                     {
                         "text": "Perfect Scrollbar",
                         "available": true,
-                        "link": "/perfect-scrollbar"
+                        "link": "/extended-ui/perfect-scrollbar"
                     },
                     {
                         "text": "Text Divider",
                         "available": true,
-                        "link": "/text-divider"
+                        "link": "/extended-ui/text-divider"
                     }
                 ]
             },
@@ -308,12 +308,12 @@
                     {
                         "text": "Basic Input",
                         "available": true,
-                        "link": "/basic-input"
+                        "link": "/form/basic-inputs"
                     },
                     {
                         "text": "Input Groups",
                         "available": true,
-                        "link": "/input-groups"
+                        "link": "/form/input-groups"
                     }
                 ]
             },
@@ -326,12 +326,12 @@
                     {
                         "text": "Vertical Form",
                         "available": true,
-                        "link": "/vertical-form"
+                        "link": "/form-layout/vertical-form"
                     },
                     {
                         "text": "Horizontal Form",
                         "available": true,
-                        "link": "/horizontal-form"
+                        "link": "/form-layout/horizontal-form"
                     }
                 ]
             },
