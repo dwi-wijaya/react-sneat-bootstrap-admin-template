@@ -17,27 +17,27 @@
                     {
                         "text": "Without menu",
                         "available": true,
-                        "link": "/without-menu"
+                        "link": "/layout/without-menu"
                     },
                     {
                         "text": "Without navbar",
                         "available": true,
-                        "link": "/without-navbar"
+                        "link": "/layout/without-navbar"
                     },
                     {
                         "text": "Container",
                         "available": true,
-                        "link": "/container"
+                        "link": "/layout/container"
                     },
                     {
                         "text": "Fluid",
                         "available": true,
-                        "link": "/fluid"
+                        "link": "/layout/fluid"
                     },
                     {
                         "text": "Blank",
                         "available": true,
-                        "link": "/blank"
+                        "link": "/layout/blank"
                     }
                 ]
             },
