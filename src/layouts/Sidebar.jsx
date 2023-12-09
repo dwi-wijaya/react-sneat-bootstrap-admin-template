@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { NavLink, useLocation } from 'react-router-dom';
+import { Link, NavLink, useLocation } from 'react-router-dom';
 import menuData from '../data/menuData.json'
 
 const Sidebar = () => {
@@ -8,12 +8,12 @@ const Sidebar = () => {
     return (
         <aside id="layout-menu" className="layout-menu menu-vertical menu bg-menu-theme">
             <div className="app-brand demo">
-                <a href="index.html" className="app-brand-link">
+                <Link to="/" className="app-brand-link">
                     <span className="app-brand-logo demo">
                         <img src="/assets/img/sneat.svg" alt="" />
                     </span>
                     <span className="app-brand-text demo menu-text fw-bold ms-2">Sneat</span>
-                </a>
+                </Link>
 
                 <a href="#" className="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
                     <i className="bx bx-chevron-left bx-sm align-middle"></i>
@@ -37,6 +37,7 @@ const Sidebar = () => {
         </aside>
     );
 };
+
 const MenuItem = (item) => {
     let location = useLocation();
     let isActive = location.pathname === item.link;
