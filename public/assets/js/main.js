@@ -26,7 +26,6 @@ function Main () {
   menuToggler.forEach(item => {
     item.addEventListener('click', event => {
       event.preventDefault();
-      console.log(window.Helpers);
       window.Helpers.toggleCollapsed();
     });
   });
