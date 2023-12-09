@@ -158,12 +158,12 @@
                     {
                         "text": "Error",
                         "available": true,
-                        "link": "/error"
+                        "link": "/misc/error"
                     },
                     {
                         "text": "Under Maintenance",
                         "available": true,
-                        "link": "/under-maintenance"
+                        "link": "/misc/under-maintenance"
                     }
                 ]
             }
