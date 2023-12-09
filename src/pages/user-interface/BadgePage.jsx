@@ -69,11 +69,11 @@ export const BadgesPage = () => {
                                 <div className="col-sm-6">
                                     <small className="text-light fw-medium">Default</small>
                                     <div className="demo-inline-spacing">
-                                        <button type="button" className="btn btn-primary">
+                                        <button aria-label='Click me' type="button" className="btn btn-primary">
                                             Text
                                             <Badge type="white" label="4" textType='primary' />
                                         </button>
-                                        <button type="button" className="btn btn-primary">
+                                        <button aria-label='Click me' type="button" className="btn btn-primary">
                                             Text
                                             <Badge type="secondary" rounded label="4" />
                                         </button>
@@ -82,11 +82,11 @@ export const BadgesPage = () => {
                                 <div className="col-sm-6">
                                     <small className="text-light fw-medium">Outline</small>
                                     <div className="demo-inline-spacing">
-                                        <button type="button" className="btn btn-outline-primary">
+                                        <button aria-label='Click me' type="button" className="btn btn-outline-primary">
                                             Text
                                             <Badge label="4" />
                                         </button>
-                                        <button type="button" className="btn btn-outline-secondary">
+                                        <button aria-label='Click me' type="button" className="btn btn-outline-secondary">
                                             Text
                                             <Badge type="secondary" rounded label="4" />
                                         </button>

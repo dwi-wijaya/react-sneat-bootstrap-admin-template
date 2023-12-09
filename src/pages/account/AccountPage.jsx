@@ -40,6 +40,7 @@ export const AccountPage = () => {
                                 className="d-block rounded"
                                 height="100"
                                 width="100"
+                                aria-label="Account image"
                                 id="uploadedAvatar"
                             />
                             <div className="button-wrapper">
@@ -54,7 +55,7 @@ export const AccountPage = () => {
                                         accept="image/png, image/jpeg"
                                     />
                                 </label>
-                                <button type="button" className="btn btn-outline-secondary account-image-reset mb-4">
+                                <button aria-label='Click me' type="button" className="btn btn-outline-secondary account-image-reset mb-4">
                                     <i className="bx bx-reset d-block d-sm-none"></i>
                                     <span className="d-none d-sm-block">Reset</span>
                                 </button>
@@ -205,8 +206,8 @@ export const AccountPage = () => {
                                 </div>
                             </div>
                             <div className="mt-2">
-                                <button type="submit" className="btn btn-primary me-2">Save changes</button>
-                                <button type="reset" className="btn btn-outline-secondary">Cancel</button>
+                                <button aria-label='Click me' type="submit" className="btn btn-primary me-2">Save changes</button>
+                                <button aria-label='Click me' type="reset" className="btn btn-outline-secondary">Cancel</button>
                             </div>
                         </form>
                     </div>
@@ -229,7 +230,7 @@ export const AccountPage = () => {
                                     id="accountActivation" />
                                 <label className="form-check-label" htmlFor="accountActivation">I confirm my account deactivation</label>
                             </div>
-                            <button type="submit" className="btn btn-danger deactivate-account">Deactivate Account</button>
+                            <button aria-label='Click me' type="submit" className="btn btn-danger deactivate-account">Deactivate Account</button>
                         </form>
                     </div>
                 </div>

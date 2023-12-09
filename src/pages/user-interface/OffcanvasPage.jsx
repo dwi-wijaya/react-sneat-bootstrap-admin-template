@@ -13,7 +13,7 @@ export const OffcanvasPage = () => {
                         <div className="col-lg-3 col-md-6">
                             <small className="text-light fw-medium mb-3">Start (Default)</small>
                             <div className="mt-3">
-                                <button
+                                <button aria-label='Click me'
                                     className="btn btn-primary"
                                     type="button"
                                     data-bs-toggle="offcanvas"
@@ -41,8 +41,8 @@ export const OffcanvasPage = () => {
                                             century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum
                                             for use in a type specimen book.
                                         </p>
-                                        <button type="button" className="btn btn-primary mb-2 d-grid w-100">Continue</button>
-                                        <button
+                                        <button aria-label='Click me' type="button" className="btn btn-primary mb-2 d-grid w-100">Continue</button>
+                                        <button aria-label='Click me'
                                             type="button"
                                             className="btn btn-outline-secondary d-grid w-100"
                                             data-bs-dismiss="offcanvas">
@@ -57,7 +57,7 @@ export const OffcanvasPage = () => {
                         <div className="col-lg-3 col-md-6">
                             <small className="text-light fw-medium mb-3">End</small>
                             <div className="mt-3">
-                                <button
+                                <button aria-label='Click me'
                                     className="btn btn-primary"
                                     type="button"
                                     data-bs-toggle="offcanvas"
@@ -72,7 +72,7 @@ export const OffcanvasPage = () => {
                                     aria-labelledby="offcanvasEndLabel">
                                     <div className="offcanvas-header">
                                         <h5 id="offcanvasEndLabel" className="offcanvas-title">Offcanvas End</h5>
-                                        <button
+                                        <button 
                                             type="button"
                                             className="btn-close text-reset"
                                             data-bs-dismiss="offcanvas"
@@ -85,8 +85,8 @@ export const OffcanvasPage = () => {
                                             century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum
                                             for use in a type specimen book.
                                         </p>
-                                        <button type="button" className="btn btn-primary mb-2 d-grid w-100">Continue</button>
-                                        <button
+                                        <button aria-label='Click me' type="button" className="btn btn-primary mb-2 d-grid w-100">Continue</button>
+                                        <button aria-label='Click me'
                                             type="button"
                                             className="btn btn-outline-secondary d-grid w-100"
                                             data-bs-dismiss="offcanvas">
@@ -101,7 +101,7 @@ export const OffcanvasPage = () => {
                         <div className="col-lg-3 col-md-6">
                             <small className="text-light fw-medium mb-3">Top</small>
                             <div className="mt-3">
-                                <button
+                                <button aria-label='Click me'
                                     className="btn btn-primary"
                                     type="button"
                                     data-bs-toggle="offcanvas"
@@ -116,7 +116,7 @@ export const OffcanvasPage = () => {
                                     aria-labelledby="offcanvasTopLabel">
                                     <div className="offcanvas-header">
                                         <h5 id="offcanvasTopLabel" className="offcanvas-title">Offcanvas Top</h5>
-                                        <button
+                                        <button 
                                             type="button"
                                             className="btn-close text-reset"
                                             data-bs-dismiss="offcanvas"
@@ -129,8 +129,8 @@ export const OffcanvasPage = () => {
                                             century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum
                                             for use in a type specimen book.
                                         </p>
-                                        <button type="button" className="btn btn-primary me-2">Continue</button>
-                                        <button type="button" className="btn btn-outline-secondary" data-bs-dismiss="offcanvas">
+                                        <button aria-label='Click me' type="button" className="btn btn-primary me-2">Continue</button>
+                                        <button aria-label='Click me' type="button" className="btn btn-outline-secondary" data-bs-dismiss="offcanvas">
                                             Cancel
                                         </button>
                                     </div>
@@ -142,7 +142,7 @@ export const OffcanvasPage = () => {
                         <div className="col-lg-3 col-md-6">
                             <small className="text-light fw-medium mb-3">Bottom</small>
                             <div className="mt-3">
-                                <button
+                                <button aria-label='Click me'
                                     className="btn btn-primary"
                                     type="button"
                                     data-bs-toggle="offcanvas"
@@ -157,7 +157,7 @@ export const OffcanvasPage = () => {
                                     aria-labelledby="offcanvasBottomLabel">
                                     <div className="offcanvas-header">
                                         <h5 id="offcanvasBottomLabel" className="offcanvas-title">Offcanvas Bottom</h5>
-                                        <button
+                                        <button 
                                             type="button"
                                             className="btn-close text-reset"
                                             data-bs-dismiss="offcanvas"
@@ -170,8 +170,8 @@ export const OffcanvasPage = () => {
                                             century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum
                                             for use in a type specimen book.
                                         </p>
-                                        <button type="button" className="btn btn-primary me-2">Continue</button>
-                                        <button type="button" className="btn btn-outline-secondary" data-bs-dismiss="offcanvas">
+                                        <button aria-label='Click me' type="button" className="btn btn-primary me-2">Continue</button>
+                                        <button aria-label='Click me' type="button" className="btn btn-outline-secondary" data-bs-dismiss="offcanvas">
                                             Cancel
                                         </button>
                                     </div>
@@ -190,7 +190,7 @@ export const OffcanvasPage = () => {
                         <div className="col-lg-4 col-md-6">
                             <small className="text-light fw-medium mb-3">Enable Body Scrolling</small>
                             <div className="mt-3">
-                                <button
+                                <button aria-label='Click me'
                                     className="btn btn-primary"
                                     type="button"
                                     data-bs-toggle="offcanvas"
@@ -207,7 +207,7 @@ export const OffcanvasPage = () => {
                                     aria-labelledby="offcanvasScrollLabel">
                                     <div className="offcanvas-header">
                                         <h5 id="offcanvasScrollLabel" className="offcanvas-title">Offcanvas Scroll</h5>
-                                        <button
+                                        <button 
                                             type="button"
                                             className="btn-close text-reset"
                                             data-bs-dismiss="offcanvas"
@@ -220,8 +220,8 @@ export const OffcanvasPage = () => {
                                             century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum
                                             for use in a type specimen book.
                                         </p>
-                                        <button type="button" className="btn btn-primary mb-2 d-grid w-100">Continue</button>
-                                        <button
+                                        <button aria-label='Click me' type="button" className="btn btn-primary mb-2 d-grid w-100">Continue</button>
+                                        <button aria-label='Click me'
                                             type="button"
                                             className="btn btn-outline-secondary d-grid w-100"
                                             data-bs-dismiss="offcanvas">
@@ -236,7 +236,7 @@ export const OffcanvasPage = () => {
                         <div className="col-lg-4 col-md-6">
                             <small className="text-light fw-medium mb-3">Enable backdrop (default)</small>
                             <div className="mt-3">
-                                <button
+                                <button aria-label='Click me'
                                     className="btn btn-primary"
                                     type="button"
                                     data-bs-toggle="offcanvas"
@@ -251,7 +251,7 @@ export const OffcanvasPage = () => {
                                     aria-labelledby="offcanvasBackdropLabel">
                                     <div className="offcanvas-header">
                                         <h5 id="offcanvasBackdropLabel" className="offcanvas-title">Enable backdrop</h5>
-                                        <button
+                                        <button 
                                             type="button"
                                             className="btn-close text-reset"
                                             data-bs-dismiss="offcanvas"
@@ -264,8 +264,8 @@ export const OffcanvasPage = () => {
                                             century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum
                                             for use in a type specimen book.
                                         </p>
-                                        <button type="button" className="btn btn-primary mb-2 d-grid w-100">Continue</button>
-                                        <button
+                                        <button aria-label='Click me' type="button" className="btn btn-primary mb-2 d-grid w-100">Continue</button>
+                                        <button aria-label='Click me'
                                             type="button"
                                             className="btn btn-outline-secondary d-grid w-100"
                                             data-bs-dismiss="offcanvas">
@@ -280,7 +280,7 @@ export const OffcanvasPage = () => {
                         <div className="col-lg-4 col-md-6">
                             <small className="text-light fw-medium mb-3">Enable Scrolling & Backdrop</small>
                             <div className="mt-3">
-                                <button
+                                <button aria-label='Click me'
                                     className="btn btn-primary"
                                     type="button"
                                     data-bs-toggle="offcanvas"
@@ -296,7 +296,7 @@ export const OffcanvasPage = () => {
                                     aria-labelledby="offcanvasBothLabel">
                                     <div className="offcanvas-header">
                                         <h5 id="offcanvasBothLabel" className="offcanvas-title">Enable both scrolling & backdrop</h5>
-                                        <button
+                                        <button 
                                             type="button"
                                             className="btn-close text-reset"
                                             data-bs-dismiss="offcanvas"
@@ -309,8 +309,8 @@ export const OffcanvasPage = () => {
                                             century who is thought to have scrambled parts of Cicero's De Finibus Bonorum et Malorum
                                             for use in a type specimen book.
                                         </p>
-                                        <button type="button" className="btn btn-primary mb-2 d-grid w-100">Continue</button>
-                                        <button
+                                        <button aria-label='Click me' type="button" className="btn btn-primary mb-2 d-grid w-100">Continue</button>
+                                        <button aria-label='Click me'
                                             type="button"
                                             className="btn btn-outline-secondary d-grid w-100"
                                             data-bs-dismiss="offcanvas">

@@ -57,7 +57,7 @@ export const FooterPage = () => {
                                 <label className="form-check-label" htmlFor="customCheck2"> Show </label>
                             </div>
                             <div className="dropdown dropup footer-link me-3">
-                                <button
+                                <button aria-label='Click me'
                                     type="button"
                                     className="btn btn-sm btn-outline-secondary dropdown-toggle"
                                     data-bs-toggle="dropdown"

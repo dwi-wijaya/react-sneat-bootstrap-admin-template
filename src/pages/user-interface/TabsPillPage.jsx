@@ -13,7 +13,7 @@ export const TabsPillPage = () => {
                     <div className="nav-align-top mb-4">
                         <ul className="nav nav-tabs" role="tablist">
                             <li className="nav-item">
-                                <button
+                                <button aria-label='Click me'
                                     type="button"
                                     className="nav-link active"
                                     role="tab"
@@ -25,7 +25,7 @@ export const TabsPillPage = () => {
                                 </button>
                             </li>
                             <li className="nav-item">
-                                <button
+                                <button aria-label='Click me'
                                     type="button"
                                     className="nav-link"
                                     role="tab"
@@ -37,7 +37,7 @@ export const TabsPillPage = () => {
                                 </button>
                             </li>
                             <li className="nav-item">
-                                <button
+                                <button aria-label='Click me'
                                     type="button"
                                     className="nav-link"
                                     role="tab"
@@ -91,7 +91,7 @@ export const TabsPillPage = () => {
                     <div className="nav-align-top mb-4">
                         <ul className="nav nav-tabs nav-fill" role="tablist">
                             <li className="nav-item">
-                                <button
+                                <button aria-label='Click me'
                                     type="button"
                                     className="nav-link active"
                                     role="tab"
@@ -104,7 +104,7 @@ export const TabsPillPage = () => {
                                 </button>
                             </li>
                             <li className="nav-item">
-                                <button
+                                <button aria-label='Click me'
                                     type="button"
                                     className="nav-link"
                                     role="tab"
@@ -116,7 +116,7 @@ export const TabsPillPage = () => {
                                 </button>
                             </li>
                             <li className="nav-item">
-                                <button
+                                <button aria-label='Click me'
                                     type="button"
                                     className="nav-link"
                                     role="tab"
@@ -180,7 +180,7 @@ export const TabsPillPage = () => {
                     <div className="nav-align-top mb-4">
                         <ul className="nav nav-pills mb-3" role="tablist">
                             <li className="nav-item">
-                                <button
+                                <button aria-label='Click me'
                                     type="button"
                                     className="nav-link active"
                                     role="tab"
@@ -192,7 +192,7 @@ export const TabsPillPage = () => {
                                 </button>
                             </li>
                             <li className="nav-item">
-                                <button
+                                <button aria-label='Click me'
                                     type="button"
                                     className="nav-link"
                                     role="tab"
@@ -204,7 +204,7 @@ export const TabsPillPage = () => {
                                 </button>
                             </li>
                             <li className="nav-item">
-                                <button
+                                <button aria-label='Click me'
                                     type="button"
                                     className="nav-link"
                                     role="tab"
@@ -259,7 +259,7 @@ export const TabsPillPage = () => {
                     <div className="nav-align-top mb-4">
                         <ul className="nav nav-pills mb-3 nav-fill" role="tablist">
                             <li className="nav-item">
-                                <button
+                                <button aria-label='Click me'
                                     type="button"
                                     className="nav-link active"
                                     role="tab"
@@ -272,7 +272,7 @@ export const TabsPillPage = () => {
                                 </button>
                             </li>
                             <li className="nav-item">
-                                <button
+                                <button aria-label='Click me'
                                     type="button"
                                     className="nav-link"
                                     role="tab"
@@ -284,7 +284,7 @@ export const TabsPillPage = () => {
                                 </button>
                             </li>
                             <li className="nav-item">
-                                <button
+                                <button aria-label='Click me'
                                     type="button"
                                     className="nav-link"
                                     role="tab"

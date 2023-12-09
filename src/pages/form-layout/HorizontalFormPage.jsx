@@ -73,7 +73,7 @@ export const HorizontalFormPage = () => {
                                 </div>
                                 <div className="row justify-content-end">
                                     <div className="col-sm-10">
-                                        <button type="submit" className="btn btn-primary">Send</button>
+                                        <button aria-label='Click me' type="submit" className="btn btn-primary">Send</button>
                                     </div>
                                 </div>
                             </form>
@@ -175,7 +175,7 @@ export const HorizontalFormPage = () => {
                                 </div>
                                 <div className="row justify-content-end">
                                     <div className="col-sm-10">
-                                        <button type="submit" className="btn btn-primary">Send</button>
+                                        <button aria-label='Click me' type="submit" className="btn btn-primary">Send</button>
                                     </div>
                                 </div>
                             </form>

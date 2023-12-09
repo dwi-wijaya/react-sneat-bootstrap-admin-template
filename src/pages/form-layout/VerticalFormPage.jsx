@@ -52,7 +52,7 @@ export const VerticalFormPage = () => {
                                         className="form-control"
                                         placeholder="Hi, Do you have a moment to talk Joe?"></textarea>
                                 </div>
-                                <button type="submit" className="btn btn-primary">Send</button>
+                                <button aria-label='Click me' type="submit" className="btn btn-primary">Send</button>
                             </form>
                         </div>
                     </div>
@@ -139,7 +139,7 @@ export const VerticalFormPage = () => {
                                             aria-describedby="basic-icon-default-message2"></textarea>
                                     </div>
                                 </div>
-                                <button type="submit" className="btn btn-primary">Send</button>
+                                <button aria-label='Click me' type="submit" className="btn btn-primary">Send</button>
                             </form>
                         </div>
                     </div>

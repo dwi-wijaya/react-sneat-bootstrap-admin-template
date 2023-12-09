@@ -3,7 +3,7 @@ import { useEffect } from "react";
 export const DashboardPage = () => {
     useEffect(() => {
         dashboardAnalitics();
-      },[])
+    }, [])
     return (
         <>
             <div className="row">
@@ -30,7 +30,7 @@ export const DashboardPage = () => {
                             </div>
                             <div className="col-sm-5 text-center text-sm-left">
                                 <div className="card-body pb-0 px-0 px-md-4">
-                                    <img
+                                    <img aria-label='dsahboard icon image'
                                         src="/assets/img/illustrations/man-with-laptop-light.png"
                                         height="140"
                                         alt="View Badge User"
@@ -49,14 +49,14 @@ export const DashboardPage = () => {
                                 <div className="card-body">
                                     <div className="card-title d-flex align-items-start justify-content-between">
                                         <div className="avatar flex-shrink-0">
-                                            <img
+                                            <img aria-label='dsahboard icon image'
                                                 src="/assets/img/icons/unicons/chart-success.png"
                                                 alt="chart success"
                                                 className="rounded"
                                             />
                                         </div>
                                         <div className="dropdown">
-                                            <button
+                                            <button aria-label='Click me'
                                                 className="btn p-0"
                                                 type="button"
                                                 id="cardOpt3"
@@ -92,14 +92,14 @@ export const DashboardPage = () => {
                                 <div className="card-body">
                                     <div className="card-title d-flex align-items-start justify-content-between">
                                         <div className="avatar flex-shrink-0">
-                                            <img
+                                            <img aria-label='dsahboard icon image'
                                                 src="/assets/img/icons/unicons/wallet-info.png"
                                                 alt="Credit Card"
                                                 className="rounded"
                                             />
                                         </div>
                                         <div className="dropdown">
-                                            <button
+                                            <button aria-label='Click me'
                                                 className="btn p-0"
                                                 type="button"
                                                 id="cardOpt6"
@@ -143,7 +143,7 @@ export const DashboardPage = () => {
                                 <div className="card-body">
                                     <div className="text-center">
                                         <div className="dropdown">
-                                            <button
+                                            <button aria-label='Click me'
                                                 className="btn btn-sm btn-outline-primary dropdown-toggle"
                                                 type="button"
                                                 id="growthReportId"
@@ -210,14 +210,14 @@ export const DashboardPage = () => {
                                 <div className="card-body">
                                     <div className="card-title d-flex align-items-start justify-content-between">
                                         <div className="avatar flex-shrink-0">
-                                            <img
+                                            <img aria-label='dsahboard icon image'
                                                 src="/assets/img/icons/unicons/paypal.png"
                                                 alt="Credit Card"
                                                 className="rounded"
                                             />
                                         </div>
                                         <div className="dropdown">
-                                            <button
+                                            <button aria-label='Click me'
                                                 className="btn p-0"
                                                 type="button"
                                                 id="cardOpt4"
@@ -253,14 +253,14 @@ export const DashboardPage = () => {
                                 <div className="card-body">
                                     <div className="card-title d-flex align-items-start justify-content-between">
                                         <div className="avatar flex-shrink-0">
-                                            <img
+                                            <img aria-label='dsahboard icon image'
                                                 src="/assets/img/icons/unicons/cc-primary.png"
                                                 alt="Credit Card"
                                                 className="rounded"
                                             />
                                         </div>
                                         <div className="dropdown">
-                                            <button
+                                            <button aria-label='Click me'
                                                 className="btn p-0"
                                                 type="button"
                                                 id="cardOpt1"
@@ -324,7 +324,7 @@ export const DashboardPage = () => {
                                 <small className="text-muted">42.82k Total Sales</small>
                             </div>
                             <div className="dropdown">
-                                <button
+                                <button aria-label='Click me'
                                     className="btn p-0"
                                     type="button"
                                     id="orederStatistics"
@@ -436,7 +436,7 @@ export const DashboardPage = () => {
                         <div className="card-header">
                             <ul className="nav nav-pills" role="tablist">
                                 <li className="nav-item">
-                                    <button
+                                    <button aria-label='Click me'
                                         type="button"
                                         className="nav-link active"
                                         role="tab"
@@ -449,12 +449,12 @@ export const DashboardPage = () => {
                                     </button>
                                 </li>
                                 <li className="nav-item">
-                                    <button type="button" className="nav-link" role="tab">
+                                    <button aria-label='Click me' type="button" className="nav-link" role="tab">
                                         Expenses
                                     </button>
                                 </li>
                                 <li className="nav-item">
-                                    <button type="button" className="nav-link" role="tab">
+                                    <button aria-label='Click me' type="button" className="nav-link" role="tab">
                                         Profit
                                     </button>
                                 </li>
@@ -469,7 +469,7 @@ export const DashboardPage = () => {
                                 >
                                     <div className="d-flex p-4 pt-3">
                                         <div className="avatar flex-shrink-0 me-3">
-                                            <img
+                                            <img aria-label='dsahboard icon image'
                                                 src="/assets/img/icons/unicons/wallet.png"
                                                 alt="User"
                                             />
@@ -509,7 +509,7 @@ export const DashboardPage = () => {
                         <div className="card-header d-flex align-items-center justify-content-between">
                             <h5 className="card-title m-0 me-2">Transactions</h5>
                             <div className="dropdown">
-                                <button
+                                <button aria-label='Click me'
                                     className="btn p-0"
                                     type="button"
                                     id="transactionID"
@@ -539,7 +539,7 @@ export const DashboardPage = () => {
                             <ul className="p-0 m-0">
                                 <li className="d-flex mb-4 pb-1">
                                     <div className="avatar flex-shrink-0 me-3">
-                                        <img
+                                        <img aria-label='dsahboard icon image'
                                             src="/assets/img/icons/unicons/paypal.png"
                                             alt="User"
                                             className="rounded"
@@ -558,7 +558,7 @@ export const DashboardPage = () => {
                                 </li>
                                 <li className="d-flex mb-4 pb-1">
                                     <div className="avatar flex-shrink-0 me-3">
-                                        <img
+                                        <img aria-label='dsahboard icon image'
                                             src="/assets/img/icons/unicons/wallet.png"
                                             alt="User"
                                             className="rounded"
@@ -577,7 +577,7 @@ export const DashboardPage = () => {
                                 </li>
                                 <li className="d-flex mb-4 pb-1">
                                     <div className="avatar flex-shrink-0 me-3">
-                                        <img
+                                        <img aria-label='dsahboard icon image'
                                             src="/assets/img/icons/unicons/chart.png"
                                             alt="User"
                                             className="rounded"
@@ -598,7 +598,7 @@ export const DashboardPage = () => {
                                 </li>
                                 <li className="d-flex mb-4 pb-1">
                                     <div className="avatar flex-shrink-0 me-3">
-                                        <img
+                                        <img aria-label='dsahboard icon image'
                                             src="/assets/img/icons/unicons/cc-success.png"
                                             alt="User"
                                             className="rounded"
@@ -619,7 +619,7 @@ export const DashboardPage = () => {
                                 </li>
                                 <li className="d-flex mb-4 pb-1">
                                     <div className="avatar flex-shrink-0 me-3">
-                                        <img
+                                        <img aria-label='dsahboard icon image'
                                             src="/assets/img/icons/unicons/wallet.png"
                                             alt="User"
                                             className="rounded"

@@ -15,7 +15,7 @@ export const ModalPage = () => {
                             <small className="text-light fw-medium">Default</small>
                             <div className="mt-3">
                                 {/* <!-- Button trigger modal --> */}
-                                <button
+                                <button aria-label='Click me'
                                     type="button"
                                     className="btn btn-primary"
                                     data-bs-toggle="modal"
@@ -29,7 +29,7 @@ export const ModalPage = () => {
                                         <div className="modal-content">
                                             <div className="modal-header">
                                                 <h5 className="modal-title" id="exampleModalLabel1">Modal title</h5>
-                                                <button
+                                                <button aria-label='Click me'
                                                     type="button"
                                                     className="btn-close"
                                                     data-bs-dismiss="modal"
@@ -58,10 +58,10 @@ export const ModalPage = () => {
                                                 </div>
                                             </div>
                                             <div className="modal-footer">
-                                                <button type="button" className="btn btn-outline-secondary" data-bs-dismiss="modal">
+                                                <button aria-label='Click me' type="button" className="btn btn-outline-secondary" data-bs-dismiss="modal">
                                                     Close
                                                 </button>
-                                                <button type="button" className="btn btn-primary">Save changes</button>
+                                                <button aria-label='Click me' type="button" className="btn btn-primary">Save changes</button>
                                             </div>
                                         </div>
                                     </div>
@@ -74,7 +74,7 @@ export const ModalPage = () => {
                             <small className="text-light fw-medium">Vertically centered</small>
                             <div className="mt-3">
                                 {/* <!-- Button trigger modal --> */}
-                                <button
+                                <button aria-label='Click me'
                                     type="button"
                                     className="btn btn-primary"
                                     data-bs-toggle="modal"
@@ -88,7 +88,7 @@ export const ModalPage = () => {
                                         <div className="modal-content">
                                             <div className="modal-header">
                                                 <h5 className="modal-title" id="modalCenterTitle">Modal title</h5>
-                                                <button
+                                                <button aria-label='Click me'
                                                     type="button"
                                                     className="btn-close"
                                                     data-bs-dismiss="modal"
@@ -121,10 +121,10 @@ export const ModalPage = () => {
                                                 </div>
                                             </div>
                                             <div className="modal-footer">
-                                                <button type="button" className="btn btn-outline-secondary" data-bs-dismiss="modal">
+                                                <button aria-label='Click me' type="button" className="btn btn-outline-secondary" data-bs-dismiss="modal">
                                                     Close
                                                 </button>
-                                                <button type="button" className="btn btn-primary">Save changes</button>
+                                                <button aria-label='Click me' type="button" className="btn btn-primary">Save changes</button>
                                             </div>
                                         </div>
                                     </div>
@@ -137,7 +137,7 @@ export const ModalPage = () => {
                             <small className="text-light fw-medium">Slide from Top</small>
                             <div className="mt-3">
                                 {/* <!-- Button trigger modal --> */}
-                                <button type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalTop">
+                                <button aria-label='Click me' type="button" className="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalTop">
                                     Launch modal
                                 </button>
 
@@ -147,7 +147,7 @@ export const ModalPage = () => {
                                         <form className="modal-content">
                                             <div className="modal-header">
                                                 <h5 className="modal-title" id="modalTopTitle">Modal title</h5>
-                                                <button
+                                                <button aria-label='Click me'
                                                     type="button"
                                                     className="btn-close"
                                                     data-bs-dismiss="modal"
@@ -180,10 +180,10 @@ export const ModalPage = () => {
                                                 </div>
                                             </div>
                                             <div className="modal-footer">
-                                                <button type="button" className="btn btn-outline-secondary" data-bs-dismiss="modal">
+                                                <button aria-label='Click me' type="button" className="btn btn-outline-secondary" data-bs-dismiss="modal">
                                                     Close
                                                 </button>
-                                                <button type="button" className="btn btn-primary">Save</button>
+                                                <button aria-label='Click me' type="button" className="btn btn-primary">Save</button>
                                             </div>
                                         </form>
                                     </div>
@@ -199,7 +199,7 @@ export const ModalPage = () => {
                         <div className="col-lg-4 col-md-6">
                             <small className="text-light fw-medium">YouTube Video</small>
                             <div className="mt-3">
-                                <button
+                                <button aria-label='Click me'
                                     type="button"
                                     className="btn btn-primary"
                                     data-bs-toggle="modal"
@@ -223,7 +223,7 @@ export const ModalPage = () => {
                         <div className="col-lg-4 col-md-6">
                             <small className="text-light fw-medium">Toggle Between Modals</small>
                             <div className="mt-3">
-                                <button
+                                <button aria-label='Click me'
                                     type="button"
                                     className="btn btn-primary"
                                     data-bs-toggle="modal"
@@ -243,7 +243,7 @@ export const ModalPage = () => {
                                         <div className="modal-content">
                                             <div className="modal-header">
                                                 <h5 className="modal-title" id="modalToggleLabel">Modal 1</h5>
-                                                <button
+                                                <button aria-label='Click me'
                                                     type="button"
                                                     className="btn-close"
                                                     data-bs-dismiss="modal"
@@ -251,7 +251,7 @@ export const ModalPage = () => {
                                             </div>
                                             <div className="modal-body">Show a second modal and hide this one with the button below.</div>
                                             <div className="modal-footer">
-                                                <button
+                                                <button aria-label='Click me'
                                                     className="btn btn-primary"
                                                     data-bs-target="#modalToggle2"
                                                     data-bs-toggle="modal"
@@ -273,7 +273,7 @@ export const ModalPage = () => {
                                         <div className="modal-content">
                                             <div className="modal-header">
                                                 <h5 className="modal-title" id="modalToggleLabel2">Modal 2</h5>
-                                                <button
+                                                <button aria-label='Click me'
                                                     type="button"
                                                     className="btn-close"
                                                     data-bs-dismiss="modal"
@@ -281,7 +281,7 @@ export const ModalPage = () => {
                                             </div>
                                             <div className="modal-body">Hide this modal and show the first with the button below.</div>
                                             <div className="modal-footer">
-                                                <button
+                                                <button aria-label='Click me'
                                                     className="btn btn-primary"
                                                     data-bs-target="#modalToggle"
                                                     data-bs-toggle="modal"
@@ -299,7 +299,7 @@ export const ModalPage = () => {
                         <div className="col-lg-4 col-md-6">
                             <small className="text-light fw-medium">Fullscreen</small>
                             <div className="mt-3">
-                                <button
+                                <button aria-label='Click me'
                                     type="button"
                                     className="btn btn-primary"
                                     data-bs-toggle="modal"
@@ -313,7 +313,7 @@ export const ModalPage = () => {
                                         <div className="modal-content">
                                             <div className="modal-header">
                                                 <h5 className="modal-title" id="modalFullTitle">Modal title</h5>
-                                                <button
+                                                <button aria-label='Click me'
                                                     type="button"
                                                     className="btn-close"
                                                     data-bs-dismiss="modal"
@@ -406,10 +406,10 @@ export const ModalPage = () => {
                                                 </p>
                                             </div>
                                             <div className="modal-footer">
-                                                <button type="button" className="btn btn-outline-secondary" data-bs-dismiss="modal">
+                                                <button aria-label='Click me' type="button" className="btn btn-outline-secondary" data-bs-dismiss="modal">
                                                     Close
                                                 </button>
-                                                <button type="button" className="btn btn-primary">Save changes</button>
+                                                <button aria-label='Click me' type="button" className="btn btn-primary">Save changes</button>
                                             </div>
                                         </div>
                                     </div>
@@ -430,7 +430,7 @@ export const ModalPage = () => {
                                     <div className="modal-content">
                                         <div className="modal-header">
                                             <h5 className="modal-title" id="exampleModalLabel2">Modal title</h5>
-                                            <button
+                                            <button aria-label='Click me'
                                                 type="button"
                                                 className="btn-close"
                                                 data-bs-dismiss="modal"
@@ -455,10 +455,10 @@ export const ModalPage = () => {
                                             </div>
                                         </div>
                                         <div className="modal-footer">
-                                            <button type="button" className="btn btn-outline-secondary" data-bs-dismiss="modal">
+                                            <button aria-label='Click me' type="button" className="btn btn-outline-secondary" data-bs-dismiss="modal">
                                                 Close
                                             </button>
-                                            <button type="button" className="btn btn-primary">Save changes</button>
+                                            <button aria-label='Click me' type="button" className="btn btn-primary">Save changes</button>
                                         </div>
                                     </div>
                                 </div>
@@ -469,7 +469,7 @@ export const ModalPage = () => {
                                     <div className="modal-content">
                                         <div className="modal-header">
                                             <h5 className="modal-title" id="exampleModalLabel3">Modal title</h5>
-                                            <button
+                                            <button aria-label='Click me'
                                                 type="button"
                                                 className="btn-close"
                                                 data-bs-dismiss="modal"
@@ -494,10 +494,10 @@ export const ModalPage = () => {
                                             </div>
                                         </div>
                                         <div className="modal-footer">
-                                            <button type="button" className="btn btn-outline-secondary" data-bs-dismiss="modal">
+                                            <button aria-label='Click me' type="button" className="btn btn-outline-secondary" data-bs-dismiss="modal">
                                                 Close
                                             </button>
-                                            <button type="button" className="btn btn-primary">Save changes</button>
+                                            <button aria-label='Click me' type="button" className="btn btn-primary">Save changes</button>
                                         </div>
                                     </div>
                                 </div>
@@ -508,7 +508,7 @@ export const ModalPage = () => {
                                     <div className="modal-content">
                                         <div className="modal-header">
                                             <h5 className="modal-title" id="exampleModalLabel4">Modal title</h5>
-                                            <button
+                                            <button aria-label='Click me'
                                                 type="button"
                                                 className="btn-close"
                                                 data-bs-dismiss="modal"
@@ -537,16 +537,16 @@ export const ModalPage = () => {
                                             </div>
                                         </div>
                                         <div className="modal-footer">
-                                            <button type="button" className="btn btn-outline-secondary" data-bs-dismiss="modal">
+                                            <button aria-label='Click me' type="button" className="btn btn-outline-secondary" data-bs-dismiss="modal">
                                                 Close
                                             </button>
-                                            <button type="button" className="btn btn-primary">Save changes</button>
+                                            <button aria-label='Click me' type="button" className="btn btn-primary">Save changes</button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="demo-inline-spacing">
-                                <button
+                                <button aria-label='Click me'
                                     type="button"
                                     className="btn btn-primary"
                                     data-bs-toggle="modal"
@@ -554,7 +554,7 @@ export const ModalPage = () => {
                                     Small
                                 </button>
 
-                                <button
+                                <button aria-label='Click me'
                                     type="button"
                                     className="btn btn-primary"
                                     data-bs-toggle="modal"
@@ -562,7 +562,7 @@ export const ModalPage = () => {
                                     Large
                                 </button>
 
-                                <button
+                                <button aria-label='Click me'
                                     type="button"
                                     className="btn btn-primary"
                                     data-bs-toggle="modal"
@@ -581,7 +581,7 @@ export const ModalPage = () => {
                                     <div className="modal-content">
                                         <div className="modal-header">
                                             <h5 className="modal-title" id="modalLongTitle">Modal title</h5>
-                                            <button
+                                            <button aria-label='Click me'
                                                 type="button"
                                                 className="btn-close"
                                                 data-bs-dismiss="modal"
@@ -668,10 +668,10 @@ export const ModalPage = () => {
                                             </p>
                                         </div>
                                         <div className="modal-footer">
-                                            <button type="button" className="btn btn-outline-secondary" data-bs-dismiss="modal">
+                                            <button aria-label='Click me' type="button" className="btn btn-outline-secondary" data-bs-dismiss="modal">
                                                 Close
                                             </button>
-                                            <button type="button" className="btn btn-primary">Save changes</button>
+                                            <button aria-label='Click me' type="button" className="btn btn-primary">Save changes</button>
                                         </div>
                                     </div>
                                 </div>
@@ -682,7 +682,7 @@ export const ModalPage = () => {
                                     <div className="modal-content">
                                         <div className="modal-header">
                                             <h5 className="modal-title" id="modalScrollableTitle">Modal title</h5>
-                                            <button
+                                            <button aria-label='Click me'
                                                 type="button"
                                                 className="btn-close"
                                                 data-bs-dismiss="modal"
@@ -769,17 +769,17 @@ export const ModalPage = () => {
                                             </p>
                                         </div>
                                         <div className="modal-footer">
-                                            <button type="button" className="btn btn-outline-secondary" data-bs-dismiss="modal">
+                                            <button aria-label='Click me' type="button" className="btn btn-outline-secondary" data-bs-dismiss="modal">
                                                 Close
                                             </button>
-                                            <button type="button" className="btn btn-primary">Save changes</button>
+                                            <button aria-label='Click me' type="button" className="btn btn-primary">Save changes</button>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div className="demo-inline-spacing">
                                 {/* <!-- Button trigger modal --> */}
-                                <button
+                                <button aria-label='Click me'
                                     type="button"
                                     className="btn btn-primary"
                                     data-bs-toggle="modal"
@@ -788,7 +788,7 @@ export const ModalPage = () => {
                                 </button>
 
                                 {/* <!-- Button ModalScrollable --> */}
-                                <button
+                                <button aria-label='Click me'
                                     type="button"
                                     className="btn btn-primary"
                                     data-bs-toggle="modal"
@@ -803,7 +803,7 @@ export const ModalPage = () => {
                             <small className="text-light fw-medium">Backdrop</small>
                             <div className="mt-3">
                                 {/* <!-- Button trigger modal --> */}
-                                <button
+                                <button aria-label='Click me'
                                     type="button"
                                     className="btn btn-primary"
                                     data-bs-toggle="modal"
@@ -817,7 +817,7 @@ export const ModalPage = () => {
                                         <form className="modal-content">
                                             <div className="modal-header">
                                                 <h5 className="modal-title" id="backDropModalTitle">Modal title</h5>
-                                                <button
+                                                <button aria-label='Click me'
                                                     type="button"
                                                     className="btn-close"
                                                     data-bs-dismiss="modal"
@@ -850,10 +850,10 @@ export const ModalPage = () => {
                                                 </div>
                                             </div>
                                             <div className="modal-footer">
-                                                <button type="button" className="btn btn-outline-secondary" data-bs-dismiss="modal">
+                                                <button aria-label='Click me' type="button" className="btn btn-outline-secondary" data-bs-dismiss="modal">
                                                     Close
                                                 </button>
-                                                <button type="button" className="btn btn-primary">Save</button>
+                                                <button aria-label='Click me' type="button" className="btn btn-primary">Save</button>
                                             </div>
                                         </form>
                                     </div>

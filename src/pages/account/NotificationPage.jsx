@@ -110,8 +110,8 @@ export const NotificationPage = () => {
                                 </select>
                             </div>
                             <div className="mt-4">
-                                <button type="submit" className="btn btn-primary me-2">Save changes</button>
-                                <button type="reset" className="btn btn-outline-secondary">Discard</button>
+                                <button aria-label='Click me' type="submit" className="btn btn-primary me-2">Save changes</button>
+                                <button aria-label='Click me' type="reset" className="btn btn-outline-secondary">Discard</button>
                             </div>
                         </div>
                     </form>

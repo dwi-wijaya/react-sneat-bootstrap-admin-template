@@ -8,7 +8,7 @@ export const AuthWrapper = ({ children }) => {
                 <div className="card">
                     <div className="card-body">
                         <div className="app-brand justify-content-center">
-                            <Link to="/" className="app-brand-link gap-2">
+                            <Link aria-label='Go to Home Page' to="/" className="app-brand-link gap-2">
                                 <span className="app-brand-logo demo">
                                     <img src="/assets/img/sneat.svg" alt="sneat-logo" />
                                 </span>

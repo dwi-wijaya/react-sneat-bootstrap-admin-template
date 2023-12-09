@@ -13,7 +13,7 @@ export const DropdownPage = () => {
                     <small className="text-light fw-medium">Basic</small>
                     <div className="demo-inline-spacing">
                         <div className="btn-group">
-                            <button
+                            <button aria-label='Click me'
                                 type="button"
                                 className="btn btn-primary dropdown-toggle"
                                 data-bs-toggle="dropdown"
@@ -32,7 +32,7 @@ export const DropdownPage = () => {
                         </div>
 
                         <div className="btn-group">
-                            <button
+                            <button aria-label='Click me'
                                 type="button"
                                 className="btn btn-secondary dropdown-toggle"
                                 data-bs-toggle="dropdown"
@@ -51,7 +51,7 @@ export const DropdownPage = () => {
                         </div>
 
                         <div className="btn-group">
-                            <button
+                            <button aria-label='Click me'
                                 type="button"
                                 className="btn btn-success dropdown-toggle"
                                 data-bs-toggle="dropdown"
@@ -70,7 +70,7 @@ export const DropdownPage = () => {
                         </div>
 
                         <div className="btn-group">
-                            <button
+                            <button aria-label='Click me'
                                 type="button"
                                 className="btn btn-danger dropdown-toggle"
                                 data-bs-toggle="dropdown"
@@ -89,7 +89,7 @@ export const DropdownPage = () => {
                         </div>
 
                         <div className="btn-group">
-                            <button
+                            <button aria-label='Click me'
                                 type="button"
                                 className="btn btn-warning dropdown-toggle"
                                 data-bs-toggle="dropdown"
@@ -108,7 +108,7 @@ export const DropdownPage = () => {
                         </div>
 
                         <div className="btn-group">
-                            <button
+                            <button aria-label='Click me'
                                 type="button"
                                 className="btn btn-info dropdown-toggle"
                                 data-bs-toggle="dropdown"
@@ -136,7 +136,7 @@ export const DropdownPage = () => {
                     <small className="text-light fw-medium">Outline</small>
                     <div className="demo-inline-spacing">
                         <div className="btn-group">
-                            <button
+                            <button aria-label='Click me'
                                 type="button"
                                 className="btn btn-outline-primary dropdown-toggle"
                                 data-bs-toggle="dropdown"
@@ -155,7 +155,7 @@ export const DropdownPage = () => {
                         </div>
 
                         <div className="btn-group">
-                            <button
+                            <button aria-label='Click me'
                                 type="button"
                                 className="btn btn-outline-secondary dropdown-toggle"
                                 data-bs-toggle="dropdown"
@@ -174,7 +174,7 @@ export const DropdownPage = () => {
                         </div>
 
                         <div className="btn-group">
-                            <button
+                            <button aria-label='Click me'
                                 type="button"
                                 className="btn btn-outline-success dropdown-toggle"
                                 data-bs-toggle="dropdown"
@@ -193,7 +193,7 @@ export const DropdownPage = () => {
                         </div>
 
                         <div className="btn-group">
-                            <button
+                            <button aria-label='Click me'
                                 type="button"
                                 className="btn btn-outline-danger dropdown-toggle"
                                 data-bs-toggle="dropdown"
@@ -212,7 +212,7 @@ export const DropdownPage = () => {
                         </div>
 
                         <div className="btn-group">
-                            <button
+                            <button aria-label='Click me'
                                 type="button"
                                 className="btn btn-outline-warning dropdown-toggle"
                                 data-bs-toggle="dropdown"
@@ -231,7 +231,7 @@ export const DropdownPage = () => {
                         </div>
 
                         <div className="btn-group">
-                            <button
+                            <button aria-label='Click me'
                                 type="button"
                                 className="btn btn-outline-info dropdown-toggle"
                                 data-bs-toggle="dropdown"
@@ -257,8 +257,8 @@ export const DropdownPage = () => {
                     <small className="text-light fw-medium">Split</small>
                     <div className="demo-inline-spacing">
                         <div className="btn-group">
-                            <button type="button" className="btn btn-primary">Primary</button>
-                            <button
+                            <button aria-label='Click me' type="button" className="btn btn-primary">Primary</button>
+                            <button aria-label='Click me'
                                 type="button"
                                 className="btn btn-primary dropdown-toggle dropdown-toggle-split"
                                 data-bs-toggle="dropdown"
@@ -277,8 +277,8 @@ export const DropdownPage = () => {
                         </div>
 
                         <div className="btn-group">
-                            <button type="button" className="btn btn-secondary">Secondary</button>
-                            <button
+                            <button aria-label='Click me' type="button" className="btn btn-secondary">Secondary</button>
+                            <button aria-label='Click me'
                                 type="button"
                                 className="btn btn-secondary dropdown-toggle dropdown-toggle-split"
                                 data-bs-toggle="dropdown"
@@ -297,8 +297,8 @@ export const DropdownPage = () => {
                         </div>
 
                         <div className="btn-group">
-                            <button type="button" className="btn btn-success">Success</button>
-                            <button
+                            <button aria-label='Click me' type="button" className="btn btn-success">Success</button>
+                            <button aria-label='Click me'
                                 type="button"
                                 className="btn btn-success dropdown-toggle dropdown-toggle-split"
                                 data-bs-toggle="dropdown"
@@ -317,8 +317,8 @@ export const DropdownPage = () => {
                         </div>
 
                         <div className="btn-group">
-                            <button type="button" className="btn btn-danger">Danger</button>
-                            <button
+                            <button aria-label='Click me' type="button" className="btn btn-danger">Danger</button>
+                            <button aria-label='Click me'
                                 type="button"
                                 className="btn btn-danger dropdown-toggle dropdown-toggle-split"
                                 data-bs-toggle="dropdown"
@@ -337,8 +337,8 @@ export const DropdownPage = () => {
                         </div>
 
                         <div className="btn-group">
-                            <button type="button" className="btn btn-warning">Warning</button>
-                            <button
+                            <button aria-label='Click me' type="button" className="btn btn-warning">Warning</button>
+                            <button aria-label='Click me'
                                 type="button"
                                 className="btn btn-warning dropdown-toggle dropdown-toggle-split"
                                 data-bs-toggle="dropdown"
@@ -357,8 +357,8 @@ export const DropdownPage = () => {
                         </div>
 
                         <div className="btn-group">
-                            <button type="button" className="btn btn-info">Info</button>
-                            <button
+                            <button aria-label='Click me' type="button" className="btn btn-info">Info</button>
+                            <button aria-label='Click me'
                                 type="button"
                                 className="btn btn-info dropdown-toggle dropdown-toggle-split"
                                 data-bs-toggle="dropdown"
@@ -388,7 +388,7 @@ export const DropdownPage = () => {
                             <small className="text-light fw-medium">Hidden arrow</small>
                             <div className="demo-inline-spacing">
                                 <div className="btn-group">
-                                    <button
+                                    <button aria-label='Click me'
                                         type="button"
                                         className="btn btn-primary dropdown-toggle hide-arrow"
                                         data-bs-toggle="dropdown"
@@ -413,7 +413,7 @@ export const DropdownPage = () => {
                             <small className="text-light fw-medium">With Icon</small>
                             <div className="demo-inline-spacing">
                                 <div className="btn-group" id="dropdown-icon-demo">
-                                    <button
+                                    <button aria-label='Click me'
                                         type="button"
                                         className="btn btn-primary dropdown-toggle"
                                         data-bs-toggle="dropdown"
@@ -454,7 +454,7 @@ export const DropdownPage = () => {
                             <small className="text-light fw-medium">Icon Dropdown</small>
                             <div className="demo-inline-spacing">
                                 <div className="btn-group">
-                                    <button
+                                    <button aria-label='Click me'
                                         type="button"
                                         className="btn btn-primary btn-icon rounded-pill dropdown-toggle hide-arrow"
                                         data-bs-toggle="dropdown"
@@ -487,7 +487,7 @@ export const DropdownPage = () => {
                     <small className="text-light fw-medium">Menu Alignment</small>
                     <div className="demo-inline-spacing">
                         <div className="btn-group">
-                            <button
+                            <button aria-label='Click me'
                                 type="button"
                                 className="btn btn-primary dropdown-toggle overflow-hidden d-sm-inline-flex d-block text-truncate"
                                 data-bs-toggle="dropdown"
@@ -496,13 +496,13 @@ export const DropdownPage = () => {
                                 End-aligned dropdown menu
                             </button>
                             <ul className="dropdown-menu dropdown-menu-end">
-                                <li><button className="dropdown-item" type="button">Action</button></li>
-                                <li><button className="dropdown-item" type="button">Another action</button></li>
-                                <li><button className="dropdown-item" type="button">Something else here</button></li>
+                                <li><button aria-label='Click me' className="dropdown-item" type="button">Action</button></li>
+                                <li><button aria-label='Click me' className="dropdown-item" type="button">Another action</button></li>
+                                <li><button aria-label='Click me' className="dropdown-item" type="button">Something else here</button></li>
                             </ul>
                         </div>
                         <div className="btn-group">
-                            <button
+                            <button aria-label='Click me'
                                 type="button"
                                 className="btn btn-primary dropdown-toggle overflow-hidden d-sm-inline-flex d-block text-truncate"
                                 data-bs-toggle="dropdown"
@@ -512,13 +512,13 @@ export const DropdownPage = () => {
                                 Start-aligned but end-aligned when lg screen
                             </button>
                             <ul className="dropdown-menu dropdown-menu-start dropdown-menu-lg-end">
-                                <li><button className="dropdown-item" type="button">Action</button></li>
-                                <li><button className="dropdown-item" type="button">Another action</button></li>
-                                <li><button className="dropdown-item" type="button">Something else here</button></li>
+                                <li><button aria-label='Click me' className="dropdown-item" type="button">Action</button></li>
+                                <li><button aria-label='Click me' className="dropdown-item" type="button">Another action</button></li>
+                                <li><button aria-label='Click me' className="dropdown-item" type="button">Something else here</button></li>
                             </ul>
                         </div>
                         <div className="btn-group">
-                            <button
+                            <button aria-label='Click me'
                                 type="button"
                                 className="btn btn-primary dropdown-toggle overflow-hidden d-sm-inline-flex d-block text-truncate"
                                 data-bs-toggle="dropdown"
@@ -528,9 +528,9 @@ export const DropdownPage = () => {
                                 End-aligned but start-aligned when lg screen
                             </button>
                             <ul className="dropdown-menu dropdown-menu-end dropdown-menu-lg-start">
-                                <li><button className="dropdown-item" type="button">Action</button></li>
-                                <li><button className="dropdown-item" type="button">Another action</button></li>
-                                <li><button className="dropdown-item" type="button">Something else here</button></li>
+                                <li><button aria-label='Click me' className="dropdown-item" type="button">Action</button></li>
+                                <li><button aria-label='Click me' className="dropdown-item" type="button">Another action</button></li>
+                                <li><button aria-label='Click me' className="dropdown-item" type="button">Something else here</button></li>
                             </ul>
                         </div>
                     </div>
@@ -544,7 +544,7 @@ export const DropdownPage = () => {
                     <small className="text-light fw-medium">Sizes</small>
                     <div className="demo-inline-spacing">
                         <div className="btn-group">
-                            <button
+                            <button aria-label='Click me'
                                 className="btn btn-primary btn-xl dropdown-toggle"
                                 type="button"
                                 data-bs-toggle="dropdown"
@@ -563,7 +563,7 @@ export const DropdownPage = () => {
                         </div>
 
                         <div className="btn-group">
-                            <button
+                            <button aria-label='Click me'
                                 className="btn btn-primary btn-lg dropdown-toggle"
                                 type="button"
                                 data-bs-toggle="dropdown"
@@ -582,7 +582,7 @@ export const DropdownPage = () => {
                         </div>
 
                         <div className="btn-group">
-                            <button
+                            <button aria-label='Click me'
                                 className="btn btn-primary btn-sm dropdown-toggle"
                                 type="button"
                                 data-bs-toggle="dropdown"
@@ -601,7 +601,7 @@ export const DropdownPage = () => {
                         </div>
 
                         <div className="btn-group">
-                            <button
+                            <button aria-label='Click me'
                                 className="btn btn-primary btn-xs dropdown-toggle"
                                 type="button"
                                 data-bs-toggle="dropdown"
@@ -632,7 +632,7 @@ export const DropdownPage = () => {
                                 <div className="col-md-6">
                                     <div className="demo-inline-spacing">
                                         <div className="btn-group">
-                                            <button
+                                            <button aria-label='Click me'
                                                 className="btn btn-primary dropdown-toggle"
                                                 type="button"
                                                 data-bs-toggle="dropdown"
@@ -654,7 +654,7 @@ export const DropdownPage = () => {
                                 <div className="col-md-6">
                                     <div className="demo-inline-spacing">
                                         <div className="btn-group dropup">
-                                            <button
+                                            <button aria-label='Click me'
                                                 type="button"
                                                 className="btn btn-primary dropdown-toggle"
                                                 data-bs-toggle="dropdown"
@@ -677,7 +677,7 @@ export const DropdownPage = () => {
                                 <div className="col-md-6">
                                     <div className="demo-inline-spacing">
                                         <div className="btn-group dropend">
-                                            <button
+                                            <button aria-label='Click me'
                                                 type="button"
                                                 className="btn btn-primary dropdown-toggle"
                                                 data-bs-toggle="dropdown"
@@ -700,7 +700,7 @@ export const DropdownPage = () => {
                                 <div className="col-md-6">
                                     <div className="demo-inline-spacing">
                                         <div className="btn-group dropstart">
-                                            <button
+                                            <button aria-label='Click me'
                                                 className="btn btn-primary dropdown-toggle"
                                                 type="button"
                                                 data-bs-toggle="dropdown"
@@ -727,7 +727,7 @@ export const DropdownPage = () => {
                             <small className="text-light fw-medium">Menu Content</small>
                             <div className="demo-inline-spacing">
                                 <div className="btn-group">
-                                    <button
+                                    <button aria-label='Click me'
                                         type="button"
                                         className="btn btn-primary dropdown-toggle"
                                         data-bs-toggle="dropdown"
@@ -744,7 +744,7 @@ export const DropdownPage = () => {
                                     </ul>
                                 </div>
                                 <div className="btn-group">
-                                    <button
+                                    <button aria-label='Click me'
                                         type="button"
                                         className="btn btn-primary dropdown-toggle"
                                         data-bs-toggle="dropdown"
@@ -763,7 +763,7 @@ export const DropdownPage = () => {
                                     </ul>
                                 </div>
                                 <div className="btn-group">
-                                    <button
+                                    <button aria-label='Click me'
                                         type="button"
                                         className="btn btn-primary dropdown-toggle"
                                         data-bs-toggle="dropdown"
@@ -779,7 +779,7 @@ export const DropdownPage = () => {
                                     </div>
                                 </div>
                                 <div className="btn-group">
-                                    <button
+                                    <button aria-label='Click me'
                                         type="button"
                                         className="btn btn-primary dropdown-toggle"
                                         data-bs-toggle="dropdown"
@@ -811,7 +811,7 @@ export const DropdownPage = () => {
                                                     <label className="form-check-label" htmlFor="dropdownCheck"> Remember me </label>
                                                 </div>
                                             </div>
-                                            <button type="button" className="btn btn-primary">Sign in</button>
+                                            <button aria-label='Click me' type="button" className="btn btn-primary">Sign in</button>
                                         </form>
                                         <div className="dropdown-divider"></div>
                                         <a className="dropdown-item" href="#">New around here? Sign up</a>
@@ -835,7 +835,7 @@ export const DropdownPage = () => {
                             >
                             <div className="demo-inline-spacing">
                                 <div className="btn-group me-1">
-                                    <button
+                                    <button aria-label='Click me'
                                         type="button"
                                         className="btn btn-primary dropdown-toggle"
                                         id="dropdownMenuOffset"
@@ -851,8 +851,8 @@ export const DropdownPage = () => {
                                     </ul>
                                 </div>
                                 <div className="btn-group">
-                                    <button type="button" className="btn btn-primary">Reference</button>
-                                    <button
+                                    <button aria-label='Click me' type="button" className="btn btn-primary">Reference</button>
+                                    <button aria-label='Click me'
                                         type="button"
                                         className="btn btn-primary dropdown-toggle dropdown-toggle-split"
                                         id="dropdownMenuReference"
@@ -879,7 +879,7 @@ export const DropdownPage = () => {
                             <small className="text-light fw-medium">Auto close behavior</small>
                             <div className="demo-inline-spacing">
                                 <div className="btn-group">
-                                    <button
+                                    <button aria-label='Click me'
                                         className="btn btn-primary dropdown-toggle"
                                         type="button"
                                         id="defaultDropdown"
@@ -895,7 +895,7 @@ export const DropdownPage = () => {
                                     </ul>
                                 </div>
                                 <div className="btn-group">
-                                    <button
+                                    <button aria-label='Click me'
                                         className="btn btn-primary dropdown-toggle"
                                         type="button"
                                         id="dropdownMenuClickableOutside"
@@ -911,7 +911,7 @@ export const DropdownPage = () => {
                                     </ul>
                                 </div>
                                 <div className="btn-group">
-                                    <button
+                                    <button aria-label='Click me'
                                         className="btn btn-primary dropdown-toggle"
                                         type="button"
                                         id="dropdownMenuClickableInside"
@@ -927,7 +927,7 @@ export const DropdownPage = () => {
                                     </ul>
                                 </div>
                                 <div className="btn-group">
-                                    <button
+                                    <button aria-label='Click me'
                                         className="btn btn-primary dropdown-toggle"
                                         type="button"
                                         id="dropdownMenuClickable"

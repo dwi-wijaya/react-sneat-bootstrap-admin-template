@@ -28,7 +28,7 @@ export const CollapsePage = () => {
                                     aria-controls="collapseExample">
                                     Link with href
                                 </a>
-                                <button
+                                <button aria-label='Click me'
                                     className="btn btn-primary me-1"
                                     type="button"
                                     data-bs-toggle="collapse"
@@ -43,6 +43,7 @@ export const CollapsePage = () => {
                                     <img
                                         src="../assets/img/elements/1.jpg"
                                         alt="collapse-image"
+                                        aria-label='collapse image'
                                         height="125"
                                         className="me-4 mb-sm-0 mb-2" />
                                     <span>
@@ -77,7 +78,7 @@ export const CollapsePage = () => {
                                     aria-controls="multiCollapseExample1"
                                 >Toggle first element</a
                                 >
-                                <button
+                                <button aria-label='Click me'
                                     className="btn btn-primary me-1"
                                     type="button"
                                     data-bs-toggle="collapse"
@@ -86,7 +87,7 @@ export const CollapsePage = () => {
                                     aria-controls="multiCollapseExample2">
                                     Toggle second element
                                 </button>
-                                <button
+                                <button aria-label='Click me'
                                     className="btn btn-primary me-1"
                                     type="button"
                                     data-bs-toggle="collapse"
@@ -103,6 +104,7 @@ export const CollapsePage = () => {
                                             <img
                                                 src="../assets/img/elements/2.jpg"
                                                 alt="collapse-image"
+                                                aria-label='collapse image'
                                                 height="125"
                                                 className="me-4 mb-sm-0 mb-2" />
                                             <span>
@@ -121,6 +123,7 @@ export const CollapsePage = () => {
                                                 src="../assets/img/elements/3.jpg"
                                                 alt="collapse-image"
                                                 height="125"
+                                                aria-label='collapse image'
                                                 className="me-4 mb-sm-0 mb-2" />
                                             <span>
                                                 There are many variations of passages of Lorem Ipsum available, but the majority have

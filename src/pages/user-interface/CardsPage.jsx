@@ -9,7 +9,7 @@ export const CardsPage = () => {
             <div className="row mb-5">
                 <div className="col-md-6 col-lg-4 mb-3">
                     <div className="card h-100">
-                        <img className="card-img-top" src="../assets/img/elements/2.jpg" alt="Card image cap" />
+                        <img aria-label='card image' className="card-img-top" src="../assets/img/elements/2.jpg" alt="Card image cap" />
                         <div className="card-body">
                             <h5 className="card-title">Card title</h5>
                             <p className="card-text">
@@ -25,7 +25,7 @@ export const CardsPage = () => {
                             <h5 className="card-title">Card title</h5>
                             <h6 className="card-subtitle text-muted">Support card subtitle</h6>
                         </div>
-                        <img className="img-fluid" src="../assets/img/elements/13.jpg" alt="Card image cap" />
+                        <img aria-label='card image' className="img-fluid" src="../assets/img/elements/13.jpg" alt="Card image cap" />
                         <div className="card-body">
                             <p className="card-text">Bear claw sesame snaps gummies chocolate.</p>
                             <a href="#" className="card-link">Card link</a>
@@ -38,7 +38,7 @@ export const CardsPage = () => {
                         <div className="card-body">
                             <h5 className="card-title">Card title</h5>
                             <h6 className="card-subtitle text-muted">Support card subtitle</h6>
-                            <img
+                            <img aria-label='card image'
                                 className="img-fluid d-flex mx-auto my-4 rounded"
                                 src="../assets/img/elements/4.jpg"
                                 alt="Card image cap" />
@@ -90,7 +90,7 @@ export const CardsPage = () => {
                 <div className="col-md-6 col-lg-4">
                     <h6 className="mt-2 text-muted">Images</h6>
                     <div className="card mb-4">
-                        <img className="card-img-top" src="../assets/img/elements/5.jpg" alt="Card image cap" />
+                        <img aria-label='card image' className="card-img-top" src="../assets/img/elements/5.jpg" alt="Card image cap" />
                         <div className="card-body">
                             <p className="card-text">
                                 Some quick example text to build on the card title and make up the bulk of the card's content.
@@ -105,7 +105,7 @@ export const CardsPage = () => {
                 <div className="col-md-6 col-lg-4">
                     <h6 className="mt-2 text-muted">Kitchen sink</h6>
                     <div className="card">
-                        <img className="card-img-top" src="../assets/img/elements/7.jpg" alt="Card image cap" />
+                        <img aria-label='card image' className="card-img-top" src="../assets/img/elements/7.jpg" alt="Card image cap" />
                         <div className="card-body">
                             <h5 className="card-title">Card title</h5>
                             <p className="card-text">Some quick example text to build on the card title.</p>
@@ -206,7 +206,7 @@ export const CardsPage = () => {
             <div className="row mb-5">
                 <div className="col-md-6 col-xl-4">
                     <div className="card mb-3">
-                        <img className="card-img-top" src="../assets/img/elements/18.jpg" alt="Card image cap" />
+                        <img aria-label='card image' className="card-img-top" src="../assets/img/elements/18.jpg" alt="Card image cap" />
                         <div className="card-body">
                             <h5 className="card-title">Card title</h5>
                             <p className="card-text">
@@ -231,12 +231,12 @@ export const CardsPage = () => {
                                 <small className="text-muted">Last updated 3 mins ago</small>
                             </p>
                         </div>
-                        <img className="card-img-bottom" src="../assets/img/elements/1.jpg" alt="Card image cap" />
+                        <img aria-label='card image' className="card-img-bottom" src="../assets/img/elements/1.jpg" alt="Card image cap" />
                     </div>
                 </div>
                 <div className="col-md-6 col-xl-4">
                     <div className="card bg-dark border-0 text-white">
-                        <img className="card-img" src="../assets/img/elements/11.jpg" alt="Card image" />
+                        <img aria-label='card image' className="card-img" src="../assets/img/elements/11.jpg" alt="Card image" />
                         <div className="card-img-overlay">
                             <h5 className="card-title">Card title</h5>
                             <p className="card-text">
@@ -257,7 +257,7 @@ export const CardsPage = () => {
                     <div className="card mb-3">
                         <div className="row g-0">
                             <div className="col-md-4">
-                                <img className="card-img card-img-left" src="../assets/img/elements/12.jpg" alt="Card image" />
+                                <img aria-label='card image' className="card-img card-img-left" src="../assets/img/elements/12.jpg" alt="Card image" />
                             </div>
                             <div className="col-md-8">
                                 <div className="card-body">
@@ -286,7 +286,7 @@ export const CardsPage = () => {
                                 </div>
                             </div>
                             <div className="col-md-4">
-                                <img className="card-img card-img-right" src="../assets/img/elements/17.jpg" alt="Card image" />
+                                <img aria-label='card image' className="card-img card-img-right" src="../assets/img/elements/17.jpg" alt="Card image" />
                             </div>
                         </div>
                     </div>
@@ -412,7 +412,7 @@ export const CardsPage = () => {
             <h6 className="pb-1 mb-4 text-muted">Card Groups</h6>
             <div className="card-group mb-5">
                 <div className="card">
-                    <img className="card-img-top" src="../assets/img/elements/4.jpg" alt="Card image cap" />
+                    <img aria-label='card image' className="card-img-top" src="../assets/img/elements/4.jpg" alt="Card image cap" />
                     <div className="card-body">
                         <h5 className="card-title">Card title</h5>
                         <p className="card-text">
@@ -425,7 +425,7 @@ export const CardsPage = () => {
                     </div>
                 </div>
                 <div className="card">
-                    <img className="card-img-top" src="../assets/img/elements/5.jpg" alt="Card image cap" />
+                    <img aria-label='card image' className="card-img-top" src="../assets/img/elements/5.jpg" alt="Card image cap" />
                     <div className="card-body">
                         <h5 className="card-title">Card title</h5>
                         <p className="card-text">
@@ -437,7 +437,7 @@ export const CardsPage = () => {
                     </div>
                 </div>
                 <div className="card">
-                    <img className="card-img-top" src="../assets/img/elements/1.jpg" alt="Card image cap" />
+                    <img aria-label='card image' className="card-img-top" src="../assets/img/elements/1.jpg" alt="Card image cap" />
                     <div className="card-body">
                         <h5 className="card-title">Card title</h5>
                         <p className="card-text">
@@ -456,7 +456,7 @@ export const CardsPage = () => {
             <div className="row row-cols-1 row-cols-md-3 g-4 mb-5">
                 <div className="col">
                     <div className="card h-100">
-                        <img className="card-img-top" src="../assets/img/elements/2.jpg" alt="Card image cap" />
+                        <img aria-label='card image' className="card-img-top" src="../assets/img/elements/2.jpg" alt="Card image cap" />
                         <div className="card-body">
                             <h5 className="card-title">Card title</h5>
                             <p className="card-text">
@@ -468,7 +468,7 @@ export const CardsPage = () => {
                 </div>
                 <div className="col">
                     <div className="card h-100">
-                        <img className="card-img-top" src="../assets/img/elements/13.jpg" alt="Card image cap" />
+                        <img aria-label='card image' className="card-img-top" src="../assets/img/elements/13.jpg" alt="Card image cap" />
                         <div className="card-body">
                             <h5 className="card-title">Card title</h5>
                             <p className="card-text">
@@ -480,7 +480,7 @@ export const CardsPage = () => {
                 </div>
                 <div className="col">
                     <div className="card h-100">
-                        <img className="card-img-top" src="../assets/img/elements/4.jpg" alt="Card image cap" />
+                        <img aria-label='card image' className="card-img-top" src="../assets/img/elements/4.jpg" alt="Card image cap" />
                         <div className="card-body">
                             <h5 className="card-title">Card title</h5>
                             <p className="card-text">
@@ -491,19 +491,7 @@ export const CardsPage = () => {
                 </div>
                 <div className="col">
                     <div className="card h-100">
-                        <img className="card-img-top" src="../assets/img/elements/18.jpg" alt="Card image cap" />
-                        <div className="card-body">
-                            <h5 className="card-title">Card title</h5>
-                            <p className="card-text">
-                                This is a longer card with supporting text below as a natural lead-in to additional content.
-                                This content is a little bit longer.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div className="col">
-                    <div className="card h-100">
-                        <img className="card-img-top" src="../assets/img/elements/19.jpg" alt="Card image cap" />
+                        <img aria-label='card image' className="card-img-top" src="../assets/img/elements/18.jpg" alt="Card image cap" />
                         <div className="card-body">
                             <h5 className="card-title">Card title</h5>
                             <p className="card-text">
@@ -515,7 +503,19 @@ export const CardsPage = () => {
                 </div>
                 <div className="col">
                     <div className="card h-100">
-                        <img className="card-img-top" src="../assets/img/elements/20.jpg" alt="Card image cap" />
+                        <img aria-label='card image' className="card-img-top" src="../assets/img/elements/19.jpg" alt="Card image cap" />
+                        <div className="card-body">
+                            <h5 className="card-title">Card title</h5>
+                            <p className="card-text">
+                                This is a longer card with supporting text below as a natural lead-in to additional content.
+                                This content is a little bit longer.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div className="col">
+                    <div className="card h-100">
+                        <img aria-label='card image' className="card-img-top" src="../assets/img/elements/20.jpg" alt="Card image cap" />
                         <div className="card-body">
                             <h5 className="card-title">Card title</h5>
                             <p className="card-text">
@@ -532,7 +532,7 @@ export const CardsPage = () => {
             <div className="row" data-masonry='{"percentPosition": true }'>
                 <div className="col-sm-6 col-lg-4 mb-4">
                     <div className="card">
-                        <img className="card-img-top" src="../assets/img/elements/5.jpg" alt="Card image cap" />
+                        <img aria-label='card image' className="card-img-top" src="../assets/img/elements/5.jpg" alt="Card image cap" />
                         <div className="card-body">
                             <h5 className="card-title">Card title that wraps to a new line</h5>
                             <p className="card-text">
@@ -556,7 +556,7 @@ export const CardsPage = () => {
                 </div>
                 <div className="col-sm-6 col-lg-4 mb-4">
                     <div className="card">
-                        <img className="card-img-top" src="../assets/img/elements/18.jpg" alt="Card image cap" />
+                        <img aria-label='card image' className="card-img-top" src="../assets/img/elements/18.jpg" alt="Card image cap" />
                         <div className="card-body">
                             <h5 className="card-title">Card title</h5>
                             <p className="card-text">
@@ -589,7 +589,7 @@ export const CardsPage = () => {
                 </div>
                 <div className="col-sm-6 col-lg-4 mb-4">
                     <div className="card">
-                        <img className="card-img-top" src="../assets/img/elements/4.jpg" alt="Card image cap" />
+                        <img aria-label='card image' className="card-img-top" src="../assets/img/elements/4.jpg" alt="Card image cap" />
                     </div>
                 </div>
                 <div className="col-sm-6 col-lg-4 mb-4">

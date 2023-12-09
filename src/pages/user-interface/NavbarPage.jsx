@@ -10,7 +10,7 @@ export const NavbarPage = () => {
             <nav className="navbar navbar-expand-lg navbar-light bg-light mb-5">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#">Navbar</a>
-                    <button
+                    <button 
                         className="navbar-toggler"
                         type="button"
                         data-bs-toggle="collapse"
@@ -53,7 +53,7 @@ export const NavbarPage = () => {
                         </ul>
                         <form className="d-flex" onSubmit={(e) => e.preventDefault()}>
                             <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                            <button className="btn btn-outline-primary" type="submit">Search</button>
+                            <button aria-label='Click me' className="btn btn-outline-primary" type="submit">Search</button>
                         </form>
                     </div>
                 </div>
@@ -67,7 +67,7 @@ export const NavbarPage = () => {
                 <nav className="navbar navbar-example navbar-expand-lg navbar-light bg-light">
                     <div className="container-fluid">
                         <a className="navbar-brand" href="#">Navbar</a>
-                        <button
+                        <button 
                             className="navbar-toggler"
                             type="button"
                             data-bs-toggle="collapse"
@@ -93,7 +93,7 @@ export const NavbarPage = () => {
                 <nav className="navbar navbar-example navbar-expand-lg bg-light">
                     <div className="container-fluid">
                         <a className="navbar-brand" href="#">Navbar</a>
-                        <button
+                        <button aria-label='Click me'
                             className="navbar-toggler"
                             type="button"
                             data-bs-toggle="collapse"
@@ -122,7 +122,7 @@ export const NavbarPage = () => {
                 <nav className="navbar navbar-example navbar-expand-lg bg-light">
                     <div className="container-fluid">
                         <a className="navbar-brand" href="#">Navbar</a>
-                        <button
+                        <button aria-label='Click me'
                             className="navbar-toggler"
                             type="button"
                             data-bs-toggle="collapse"
@@ -138,7 +138,7 @@ export const NavbarPage = () => {
                             </div>
 
                             <form onSubmit={(e) => e.preventDefault()}>
-                                <button className="btn btn-outline-primary" type="button">Buy Now</button>
+                                <button aria-label='Click me' className="btn btn-outline-primary" type="button">Buy Now</button>
                             </form>
                         </div>
                     </div>

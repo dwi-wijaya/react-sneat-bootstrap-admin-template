@@ -45,7 +45,7 @@ export const LoginPage = () => {
                 <div className="mb-3 form-password-toggle">
                     <div className="d-flex justify-content-between">
                         <label className="form-label" htmlFor="password">Password</label>
-                        <Link to="/auth/forgot-password">
+                        <Link aria-label="Go to Forgot Password Page" to="/auth/forgot-password">
                             <small>Forgot Password?</small>
                         </Link>
                     </div>
@@ -77,13 +77,13 @@ export const LoginPage = () => {
                     </div>
                 </div>
                 <div className="mb-3">
-                    <button className="btn btn-primary d-grid w-100" type="submit">Sign in</button>
+                    <button aria-label='Click me' className="btn btn-primary d-grid w-100" type="submit">Sign in</button>
                 </div>
             </form>
 
             <p className="text-center">
                 <span>New on our platform? </span>
-                <Link to='/auth/register' className="registration-link">
+                <Link aria-label="Go to Register Page" to='/auth/register' className="registration-link">
                     <span>Create an account</span>
                 </Link>
             </p>

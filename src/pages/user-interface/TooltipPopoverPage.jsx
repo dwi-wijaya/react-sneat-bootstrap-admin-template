@@ -12,7 +12,7 @@ export const TooltipPopoverPage = () => {
                     <div className="text-light small fw-medium">Directions</div>
                     <div className="row demo-vertical-spacing">
                         <div className="col">
-                            <button
+                            <button aria-label='Click me'
                                 type="button"
                                 className="btn btn-primary"
                                 data-bs-toggle="tooltip"
@@ -24,7 +24,7 @@ export const TooltipPopoverPage = () => {
                             </button>
                         </div>
                         <div className="col">
-                            <button
+                            <button aria-label='Click me'
                                 type="button"
                                 className="btn btn-primary"
                                 data-bs-toggle="tooltip"
@@ -36,7 +36,7 @@ export const TooltipPopoverPage = () => {
                             </button>
                         </div>
                         <div className="col">
-                            <button
+                            <button aria-label='Click me'
                                 type="button"
                                 className="btn btn-primary"
                                 data-bs-toggle="tooltip"
@@ -48,7 +48,7 @@ export const TooltipPopoverPage = () => {
                             </button>
                         </div>
                         <div className="col">
-                            <button
+                            <button aria-label='Click me'
                                 type="button"
                                 className="btn btn-primary"
                                 data-bs-toggle="tooltip"
@@ -71,53 +71,53 @@ export const TooltipPopoverPage = () => {
                     <div className="text-light small fw-medium">Directions</div>
                     <div className="row demo-vertical-spacing">
                         <div className="col">
-                            <button
+                            <button aria-label='Click me'
                                 type="button"
                                 className="btn btn-primary text-nowrap"
                                 data-bs-toggle="popover"
                                 data-bs-offset="0,14"
                                 data-bs-placement="right"
                                 data-bs-html="true"
-                                data-bs-content="<p>This is a very beautiful popover, show some love.</p> <div className='d-flex justify-content-between'><button type='button' className='btn btn-sm btn-outline-secondary'>Skip</button><button type='button' className='btn btn-sm btn-primary'>Read More</button></div>"
+                                data-bs-content="<p>This is a very beautiful popover, show some love.</p> <div className='d-flex justify-content-between'><button aria-label='Click me' type='button' className='btn btn-sm btn-outline-secondary'>Skip</button><button aria-label='Click me' type='button' className='btn btn-sm btn-primary'>Read More</button></div>"
                                 title="Popover Title">
                                 Popover on right
                             </button>
                         </div>
                         <div className="col">
-                            <button
+                            <button aria-label='Click me'
                                 type="button"
                                 className="btn btn-primary text-nowrap"
                                 data-bs-toggle="popover"
                                 data-bs-offset="0,14"
                                 data-bs-placement="top"
                                 data-bs-html="true"
-                                data-bs-content="<p>This is a very beautiful popover, show some love.</p> <div className='d-flex justify-content-between'><button type='button' className='btn btn-sm btn-outline-secondary'>Skip</button><button type='button' className='btn btn-sm btn-primary'>Read More</button></div>"
+                                data-bs-content="<p>This is a very beautiful popover, show some love.</p> <div className='d-flex justify-content-between'><button aria-label='Click me' type='button' className='btn btn-sm btn-outline-secondary'>Skip</button><button aria-label='Click me' type='button' className='btn btn-sm btn-primary'>Read More</button></div>"
                                 title="Popover Title">
                                 Popover on top
                             </button>
                         </div>
                         <div className="col">
-                            <button
+                            <button aria-label='Click me'
                                 type="button"
                                 className="btn btn-primary text-nowrap"
                                 data-bs-toggle="popover"
                                 data-bs-offset="0,14"
                                 data-bs-placement="bottom"
                                 data-bs-html="true"
-                                data-bs-content="<p>This is a very beautiful popover, show some love.</p> <div className='d-flex justify-content-between'><button type='button' className='btn btn-sm btn-outline-secondary'>Skip</button><button type='button' className='btn btn-sm btn-primary'>Read More</button></div>"
+                                data-bs-content="<p>This is a very beautiful popover, show some love.</p> <div className='d-flex justify-content-between'><button aria-label='Click me' type='button' className='btn btn-sm btn-outline-secondary'>Skip</button><button aria-label='Click me' type='button' className='btn btn-sm btn-primary'>Read More</button></div>"
                                 title="Popover Title">
                                 Popover on bottom
                             </button>
                         </div>
                         <div className="col">
-                            <button
+                            <button aria-label='Click me'
                                 type="button"
                                 className="btn btn-primary text-nowrap"
                                 data-bs-toggle="popover"
                                 data-bs-offset="0,14"
                                 data-bs-placement="left"
                                 data-bs-html="true"
-                                data-bs-content="<p>This is a very beautiful popover, show some love.</p> <div className='d-flex justify-content-between'><button type='button' className='btn btn-sm btn-outline-secondary'>Skip</button><button type='button' className='btn btn-sm btn-primary'>Read More</button></div>"
+                                data-bs-content="<p>This is a very beautiful popover, show some love.</p> <div className='d-flex justify-content-between'><button aria-label='Click me' type='button' className='btn btn-sm btn-outline-secondary'>Skip</button><button aria-label='Click me' type='button' className='btn btn-sm btn-primary'>Read More</button></div>"
                                 title="Popover Title">
                                 Popover on left
                             </button>

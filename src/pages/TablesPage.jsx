@@ -34,7 +34,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -42,7 +42,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -50,21 +50,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-primary me-1">Active</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -84,7 +84,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -92,7 +92,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -100,21 +100,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-success me-1">Completed</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-2"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-2"></i> Delete</a
                                             >
                                         </div>
@@ -135,7 +135,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -143,7 +143,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -151,21 +151,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-info me-1">Scheduled</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-2"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-2"></i> Delete</a
                                             >
                                         </div>
@@ -186,7 +186,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -194,7 +194,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -202,21 +202,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-warning me-1">Pending</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-2"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-2"></i> Delete</a
                                             >
                                         </div>
@@ -260,7 +260,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -268,7 +268,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -276,21 +276,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-primary me-1">Active</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -310,7 +310,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -318,7 +318,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -326,21 +326,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-success me-1">Completed</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -361,7 +361,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -369,7 +369,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -377,21 +377,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-info me-1">Scheduled</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -412,7 +412,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -420,7 +420,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -428,21 +428,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-warning me-1">Pending</span></td>
                                 <td className="rounded-end-bottom">
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -486,7 +486,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -494,7 +494,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -502,21 +502,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-primary me-1">Active</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -536,7 +536,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -544,7 +544,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -552,21 +552,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-success me-1">Completed</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -587,7 +587,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -595,7 +595,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -603,21 +603,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-info me-1">Scheduled</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -638,7 +638,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -646,7 +646,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -654,21 +654,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-warning me-1">Pending</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -712,7 +712,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -720,7 +720,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -728,21 +728,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-primary me-1">Active</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -762,7 +762,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -770,7 +770,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -778,21 +778,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-success me-1">Completed</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -813,7 +813,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -821,7 +821,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -829,21 +829,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-info me-1">Scheduled</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -864,7 +864,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -872,7 +872,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -880,21 +880,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-warning me-1">Pending</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -938,7 +938,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -946,7 +946,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -954,21 +954,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-primary me-1">Active</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -988,7 +988,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -996,7 +996,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -1004,21 +1004,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-success me-1">Completed</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -1039,7 +1039,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -1047,7 +1047,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -1055,21 +1055,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-info me-1">Scheduled</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -1090,7 +1090,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -1098,7 +1098,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -1106,21 +1106,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-warning me-1">Pending</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -1176,7 +1176,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -1184,7 +1184,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -1192,21 +1192,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-primary me-1">Active</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -1226,7 +1226,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -1234,7 +1234,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -1242,21 +1242,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-success me-1">Completed</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -1277,7 +1277,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -1285,7 +1285,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -1293,21 +1293,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-info me-1">Scheduled</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -1328,7 +1328,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -1336,7 +1336,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -1344,21 +1344,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-warning me-1">Pending</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -1402,7 +1402,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -1410,7 +1410,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -1418,21 +1418,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-primary me-1">Active</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -1452,7 +1452,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -1460,7 +1460,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -1468,21 +1468,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-success me-1">Completed</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -1503,7 +1503,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -1511,7 +1511,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -1519,21 +1519,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-info me-1">Scheduled</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -1554,7 +1554,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -1562,7 +1562,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -1570,21 +1570,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-warning me-1">Pending</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -1629,7 +1629,7 @@ export const TablesPage = () => {
                                                 data-bs-placement="top"
                                                 className="avatar avatar-xs pull-up"
                                                 title="Lilian Fuller">
-                                                <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                                <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                             </li>
                                             <li
                                                 data-bs-toggle="tooltip"
@@ -1637,7 +1637,7 @@ export const TablesPage = () => {
                                                 data-bs-placement="top"
                                                 className="avatar avatar-xs pull-up"
                                                 title="Sophia Wilkerson">
-                                                <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                                <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                             </li>
                                             <li
                                                 data-bs-toggle="tooltip"
@@ -1645,24 +1645,24 @@ export const TablesPage = () => {
                                                 data-bs-placement="top"
                                                 className="avatar avatar-xs pull-up"
                                                 title="Christina Parker">
-                                                <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                                <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                             </li>
                                         </ul>
                                     </td>
                                     <td><span className="badge bg-label-primary me-1">Active</span></td>
                                     <td>
                                         <div className="dropdown">
-                                            <button
+                                            <button aria-label='Click me'
                                                 type="button"
                                                 className="btn p-0 dropdown-toggle hide-arrow"
                                                 data-bs-toggle="dropdown">
                                                 <i className="bx bx-dots-vertical-rounded"></i>
                                             </button>
                                             <div className="dropdown-menu">
-                                                <a className="dropdown-item" href="#"
+                                                <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                                 ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                                 >
-                                                <a className="dropdown-item" href="#"
+                                                <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                                 ><i className="bx bx-trash me-1"></i> Delete</a
                                                 >
                                             </div>
@@ -1683,7 +1683,7 @@ export const TablesPage = () => {
                                                 data-bs-placement="top"
                                                 className="avatar avatar-xs pull-up"
                                                 title="Lilian Fuller">
-                                                <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                                <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                             </li>
                                             <li
                                                 data-bs-toggle="tooltip"
@@ -1691,7 +1691,7 @@ export const TablesPage = () => {
                                                 data-bs-placement="top"
                                                 className="avatar avatar-xs pull-up"
                                                 title="Sophia Wilkerson">
-                                                <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                                <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                             </li>
                                             <li
                                                 data-bs-toggle="tooltip"
@@ -1699,24 +1699,24 @@ export const TablesPage = () => {
                                                 data-bs-placement="top"
                                                 className="avatar avatar-xs pull-up"
                                                 title="Christina Parker">
-                                                <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                                <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                             </li>
                                         </ul>
                                     </td>
                                     <td><span className="badge bg-label-success me-1">Completed</span></td>
                                     <td>
                                         <div className="dropdown">
-                                            <button
+                                            <button aria-label='Click me'
                                                 type="button"
                                                 className="btn p-0 dropdown-toggle hide-arrow"
                                                 data-bs-toggle="dropdown">
                                                 <i className="bx bx-dots-vertical-rounded"></i>
                                             </button>
                                             <div className="dropdown-menu">
-                                                <a className="dropdown-item" href="#"
+                                                <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                                 ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                                 >
-                                                <a className="dropdown-item" href="#"
+                                                <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                                 ><i className="bx bx-trash me-1"></i> Delete</a
                                                 >
                                             </div>
@@ -1737,7 +1737,7 @@ export const TablesPage = () => {
                                                 data-bs-placement="top"
                                                 className="avatar avatar-xs pull-up"
                                                 title="Lilian Fuller">
-                                                <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                                <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                             </li>
                                             <li
                                                 data-bs-toggle="tooltip"
@@ -1745,7 +1745,7 @@ export const TablesPage = () => {
                                                 data-bs-placement="top"
                                                 className="avatar avatar-xs pull-up"
                                                 title="Sophia Wilkerson">
-                                                <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                                <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                             </li>
                                             <li
                                                 data-bs-toggle="tooltip"
@@ -1753,24 +1753,24 @@ export const TablesPage = () => {
                                                 data-bs-placement="top"
                                                 className="avatar avatar-xs pull-up"
                                                 title="Christina Parker">
-                                                <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                                <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                             </li>
                                         </ul>
                                     </td>
                                     <td><span className="badge bg-label-info me-1">Scheduled</span></td>
                                     <td>
                                         <div className="dropdown">
-                                            <button
+                                            <button aria-label='Click me'
                                                 type="button"
                                                 className="btn p-0 dropdown-toggle hide-arrow"
                                                 data-bs-toggle="dropdown">
                                                 <i className="bx bx-dots-vertical-rounded"></i>
                                             </button>
                                             <div className="dropdown-menu">
-                                                <a className="dropdown-item" href="#"
+                                                <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                                 ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                                 >
-                                                <a className="dropdown-item" href="#"
+                                                <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                                 ><i className="bx bx-trash me-1"></i> Delete</a
                                                 >
                                             </div>
@@ -1791,7 +1791,7 @@ export const TablesPage = () => {
                                                 data-bs-placement="top"
                                                 className="avatar avatar-xs pull-up"
                                                 title="Lilian Fuller">
-                                                <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                                <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                             </li>
                                             <li
                                                 data-bs-toggle="tooltip"
@@ -1799,7 +1799,7 @@ export const TablesPage = () => {
                                                 data-bs-placement="top"
                                                 className="avatar avatar-xs pull-up"
                                                 title="Sophia Wilkerson">
-                                                <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                                <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                             </li>
                                             <li
                                                 data-bs-toggle="tooltip"
@@ -1807,24 +1807,24 @@ export const TablesPage = () => {
                                                 data-bs-placement="top"
                                                 className="avatar avatar-xs pull-up"
                                                 title="Christina Parker">
-                                                <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                                <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                             </li>
                                         </ul>
                                     </td>
                                     <td><span className="badge bg-label-warning me-1">Pending</span></td>
                                     <td>
                                         <div className="dropdown">
-                                            <button
+                                            <button aria-label='Click me'
                                                 type="button"
                                                 className="btn p-0 dropdown-toggle hide-arrow"
                                                 data-bs-toggle="dropdown">
                                                 <i className="bx bx-dots-vertical-rounded"></i>
                                             </button>
                                             <div className="dropdown-menu">
-                                                <a className="dropdown-item" href="#"
+                                                <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                                 ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                                 >
-                                                <a className="dropdown-item" href="#"
+                                                <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                                 ><i className="bx bx-trash me-1"></i> Delete</a
                                                 >
                                             </div>
@@ -1869,7 +1869,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -1877,7 +1877,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -1885,21 +1885,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-primary me-1">Active</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -1919,7 +1919,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -1927,7 +1927,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -1935,21 +1935,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-success me-1">Completed</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -1970,7 +1970,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -1978,7 +1978,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -1986,21 +1986,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-info me-1">Scheduled</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -2021,7 +2021,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -2029,7 +2029,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -2037,21 +2037,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-warning me-1">Pending</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -2095,7 +2095,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -2103,7 +2103,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -2111,21 +2111,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-primary me-1">Active</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -2145,7 +2145,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -2153,7 +2153,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -2161,21 +2161,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-success me-1">Completed</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -2196,7 +2196,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -2204,7 +2204,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -2212,21 +2212,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-info me-1">Scheduled</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -2247,7 +2247,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -2255,7 +2255,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -2263,21 +2263,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-warning me-1">Pending</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -2322,7 +2322,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -2330,7 +2330,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -2338,21 +2338,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-primary me-1">Active</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -2372,7 +2372,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -2380,7 +2380,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -2388,21 +2388,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-success me-1">Completed</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -2423,7 +2423,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -2431,7 +2431,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -2439,21 +2439,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-info me-1">Scheduled</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -2474,7 +2474,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -2482,7 +2482,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -2490,21 +2490,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-warning me-1">Pending</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -2549,7 +2549,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -2557,7 +2557,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -2565,21 +2565,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-primary me-1">Active</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -2599,7 +2599,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -2607,7 +2607,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -2615,21 +2615,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-success me-1">Completed</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -2650,7 +2650,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -2658,7 +2658,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -2666,21 +2666,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-primary me-1">Active</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -2701,7 +2701,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -2709,7 +2709,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -2717,21 +2717,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-info me-1">Scheduled</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -2752,7 +2752,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -2760,7 +2760,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -2768,21 +2768,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-warning me-1">Pending</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -2803,7 +2803,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -2811,7 +2811,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -2819,21 +2819,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-primary me-1">Active</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -2853,7 +2853,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -2861,7 +2861,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -2869,21 +2869,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-info me-1">Scheduled</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -2904,7 +2904,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -2912,7 +2912,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -2920,21 +2920,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-warning me-1">Pending</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -2955,7 +2955,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -2963,7 +2963,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -2971,21 +2971,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-success me-1">Completed</span></td>
                                 <td>
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -3006,7 +3006,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Lilian Fuller">
-                                            <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -3014,7 +3014,7 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Sophia Wilkerson">
-                                            <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                         <li
                                             data-bs-toggle="tooltip"
@@ -3022,21 +3022,21 @@ export const TablesPage = () => {
                                             data-bs-placement="top"
                                             className="avatar avatar-xs pull-up"
                                             title="Christina Parker">
-                                            <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                            <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                         </li>
                                     </ul>
                                 </td>
                                 <td><span className="badge bg-label-success me-1">Completed</span></td>
                                 <td className="rounded-end-bottom">
                                     <div className="dropdown">
-                                        <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                        <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                             <i className="bx bx-dots-vertical-rounded"></i>
                                         </button>
                                         <div className="dropdown-menu">
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                             >
-                                            <a className="dropdown-item" href="#"
+                                            <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                             ><i className="bx bx-trash me-1"></i> Delete</a
                                             >
                                         </div>
@@ -3079,7 +3079,7 @@ export const TablesPage = () => {
                                         data-bs-placement="top"
                                         className="avatar avatar-xs pull-up"
                                         title="Lilian Fuller">
-                                        <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                        <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                     </li>
                                     <li
                                         data-bs-toggle="tooltip"
@@ -3087,7 +3087,7 @@ export const TablesPage = () => {
                                         data-bs-placement="top"
                                         className="avatar avatar-xs pull-up"
                                         title="Sophia Wilkerson">
-                                        <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                        <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                     </li>
                                     <li
                                         data-bs-toggle="tooltip"
@@ -3095,21 +3095,21 @@ export const TablesPage = () => {
                                         data-bs-placement="top"
                                         className="avatar avatar-xs pull-up"
                                         title="Christina Parker">
-                                        <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                        <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                     </li>
                                 </ul>
                             </td>
                             <td><span className="badge bg-label-primary me-1">Active</span></td>
                             <td>
                                 <div className="dropdown">
-                                    <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                    <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                         <i className="bx bx-dots-vertical-rounded"></i>
                                     </button>
                                     <div className="dropdown-menu">
-                                        <a className="dropdown-item" href="#"
+                                        <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                         ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                         >
-                                        <a className="dropdown-item" href="#"
+                                        <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                         ><i className="bx bx-trash me-1"></i> Delete</a
                                         >
                                     </div>
@@ -3129,7 +3129,7 @@ export const TablesPage = () => {
                                         data-bs-placement="top"
                                         className="avatar avatar-xs pull-up"
                                         title="Lilian Fuller">
-                                        <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                        <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                     </li>
                                     <li
                                         data-bs-toggle="tooltip"
@@ -3137,7 +3137,7 @@ export const TablesPage = () => {
                                         data-bs-placement="top"
                                         className="avatar avatar-xs pull-up"
                                         title="Sophia Wilkerson">
-                                        <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                        <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                     </li>
                                     <li
                                         data-bs-toggle="tooltip"
@@ -3145,21 +3145,21 @@ export const TablesPage = () => {
                                         data-bs-placement="top"
                                         className="avatar avatar-xs pull-up"
                                         title="Christina Parker">
-                                        <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                        <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                     </li>
                                 </ul>
                             </td>
                             <td><span className="badge bg-label-success me-1">Completed</span></td>
                             <td>
                                 <div className="dropdown">
-                                    <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                    <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                         <i className="bx bx-dots-vertical-rounded"></i>
                                     </button>
                                     <div className="dropdown-menu">
-                                        <a className="dropdown-item" href="#"
+                                        <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                         ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                         >
-                                        <a className="dropdown-item" href="#"
+                                        <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                         ><i className="bx bx-trash me-1"></i> Delete</a
                                         >
                                     </div>
@@ -3180,7 +3180,7 @@ export const TablesPage = () => {
                                         data-bs-placement="top"
                                         className="avatar avatar-xs pull-up"
                                         title="Lilian Fuller">
-                                        <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                        <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                     </li>
                                     <li
                                         data-bs-toggle="tooltip"
@@ -3188,7 +3188,7 @@ export const TablesPage = () => {
                                         data-bs-placement="top"
                                         className="avatar avatar-xs pull-up"
                                         title="Sophia Wilkerson">
-                                        <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                        <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                     </li>
                                     <li
                                         data-bs-toggle="tooltip"
@@ -3196,21 +3196,21 @@ export const TablesPage = () => {
                                         data-bs-placement="top"
                                         className="avatar avatar-xs pull-up"
                                         title="Christina Parker">
-                                        <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                        <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                     </li>
                                 </ul>
                             </td>
                             <td><span className="badge bg-label-info me-1">Scheduled</span></td>
                             <td>
                                 <div className="dropdown">
-                                    <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                    <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                         <i className="bx bx-dots-vertical-rounded"></i>
                                     </button>
                                     <div className="dropdown-menu">
-                                        <a className="dropdown-item" href="#"
+                                        <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                         ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                         >
-                                        <a className="dropdown-item" href="#"
+                                        <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                         ><i className="bx bx-trash me-1"></i> Delete</a
                                         >
                                     </div>
@@ -3231,7 +3231,7 @@ export const TablesPage = () => {
                                         data-bs-placement="top"
                                         className="avatar avatar-xs pull-up"
                                         title="Lilian Fuller">
-                                        <img src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
+                                        <img aria-label='table image' src="../assets/img/avatars/5.png" alt="Avatar" className="rounded-circle" />
                                     </li>
                                     <li
                                         data-bs-toggle="tooltip"
@@ -3239,7 +3239,7 @@ export const TablesPage = () => {
                                         data-bs-placement="top"
                                         className="avatar avatar-xs pull-up"
                                         title="Sophia Wilkerson">
-                                        <img src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
+                                        <img aria-label='table image' src="../assets/img/avatars/6.png" alt="Avatar" className="rounded-circle" />
                                     </li>
                                     <li
                                         data-bs-toggle="tooltip"
@@ -3247,21 +3247,21 @@ export const TablesPage = () => {
                                         data-bs-placement="top"
                                         className="avatar avatar-xs pull-up"
                                         title="Christina Parker">
-                                        <img src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
+                                        <img aria-label='table image' src="../assets/img/avatars/7.png" alt="Avatar" className="rounded-circle" />
                                     </li>
                                 </ul>
                             </td>
                             <td><span className="badge bg-label-warning me-1">Pending</span></td>
                             <td>
                                 <div className="dropdown">
-                                    <button type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
+                                    <button aria-label='Click me' type="button" className="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
                                         <i className="bx bx-dots-vertical-rounded"></i>
                                     </button>
                                     <div className="dropdown-menu">
-                                        <a className="dropdown-item" href="#"
+                                        <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                         ><i className="bx bx-edit-alt me-1"></i> Edit</a
                                         >
-                                        <a className="dropdown-item" href="#"
+                                        <a aria-label="dropdown action option" className="dropdown-item" href="#"
                                         ><i className="bx bx-trash me-1"></i> Delete</a
                                         >
                                     </div>

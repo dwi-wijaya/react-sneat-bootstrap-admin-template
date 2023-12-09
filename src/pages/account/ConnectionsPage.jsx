@@ -168,7 +168,7 @@ export const Connections = () => {
                                         <small className="text-muted">Not Connected</small>
                                     </div>
                                     <div className="col-4 col-sm-5 text-end">
-                                        <button
+                                        <button aria-label='Click me'
                                             type="button"
                                             className="btn btn-icon btn-outline-secondary"
                                         >
@@ -198,7 +198,7 @@ export const Connections = () => {
                                         </a>
                                     </div>
                                     <div className="col-4 col-sm-5 text-end">
-                                        <button
+                                        <button aria-label='Click me'
                                             type="button"
                                             className="btn btn-icon btn-outline-danger"
                                         >
@@ -228,7 +228,7 @@ export const Connections = () => {
                                         </a>
                                     </div>
                                     <div className="col-4 col-sm-5 text-end">
-                                        <button
+                                        <button aria-label='Click me'
                                             type="button"
                                             className="btn btn-icon btn-outline-danger"
                                         >
@@ -252,7 +252,7 @@ export const Connections = () => {
                                         <small className="text-muted">Not Connected</small>
                                     </div>
                                     <div className="col-4 col-sm-5 text-end">
-                                        <button
+                                        <button aria-label='Click me'
                                             type="button"
                                             className="btn btn-icon btn-outline-secondary"
                                         >
@@ -276,7 +276,7 @@ export const Connections = () => {
                                         <small className="text-muted">Not Connected</small>
                                     </div>
                                     <div className="col-4 col-sm-5 text-end">
-                                        <button
+                                        <button aria-label='Click me'
                                             type="button"
                                             className="btn btn-icon btn-outline-secondary"
                                         >

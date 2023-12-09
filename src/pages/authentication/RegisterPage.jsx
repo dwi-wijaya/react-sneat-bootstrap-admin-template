@@ -80,12 +80,12 @@ export const RegisterPage = () => {
                         </label>
                     </div>
                 </div>
-                <button className="btn btn-primary d-grid w-100">Sign up</button>
+                <button aria-label='Click me' className="btn btn-primary d-grid w-100">Sign up</button>
             </form>
 
             <p className="text-center">
                 <span>Already have an account?</span>
-                <Link to="/auth/login" className="d-flex align-items-center justify-content-center">
+                <Link aria-label="Go to Login Page" to="/auth/login" className="d-flex align-items-center justify-content-center">
                     <i className="bx bx-chevron-left scaleX-n1-rtl bx-sm"></i>
                     Back to login
                 </Link>

@@ -264,7 +264,7 @@ export const InputGroupPage = () => {
                         <div className="card-body demo-vertical-spacing demo-only-element">
                             <small className="text-light fw-medium d-block">Button addons</small>
                             <div className="input-group">
-                                <button className="btn btn-outline-primary" type="button" id="button-addon1">Button</button>
+                                <button aria-label='Click me' className="btn btn-outline-primary" type="button" id="button-addon1">Button</button>
                                 <input
                                     type="text"
                                     className="form-control"
@@ -280,12 +280,12 @@ export const InputGroupPage = () => {
                                     placeholder="Recipient's username"
                                     aria-label="Recipient's username"
                                     aria-describedby="button-addon2" />
-                                <button className="btn btn-outline-primary" type="button" id="button-addon2">Button</button>
+                                <button aria-label='Click me' className="btn btn-outline-primary" type="button" id="button-addon2">Button</button>
                             </div>
 
                             <div className="input-group">
-                                <button className="btn btn-outline-primary" type="button">Button</button>
-                                <button className="btn btn-outline-primary" type="button">Button</button>
+                                <button aria-label='Click me' className="btn btn-outline-primary" type="button">Button</button>
+                                <button aria-label='Click me' className="btn btn-outline-primary" type="button">Button</button>
                                 <input
                                     type="text"
                                     className="form-control"
@@ -299,13 +299,13 @@ export const InputGroupPage = () => {
                                     className="form-control"
                                     placeholder="Recipient's username"
                                     aria-label="Recipient's username with two button addons" />
-                                <button className="btn btn-outline-primary" type="button">Button</button>
-                                <button className="btn btn-outline-primary" type="button">Button</button>
+                                <button aria-label='Click me' className="btn btn-outline-primary" type="button">Button</button>
+                                <button aria-label='Click me' className="btn btn-outline-primary" type="button">Button</button>
                             </div>
 
                             <small className="text-light fw-medium d-block pt-3">Button with dropdowns</small>
                             <div className="input-group">
-                                <button
+                                <button aria-label='Click me'
                                     className="btn btn-outline-primary dropdown-toggle"
                                     type="button"
                                     data-bs-toggle="dropdown"
@@ -313,9 +313,9 @@ export const InputGroupPage = () => {
                                     Dropdown
                                 </button>
                                 <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#">Action</a></li>
-                                    <li><a className="dropdown-item" href="#">Another action</a></li>
-                                    <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a aria-label="dropdown item action" className="dropdown-item" href="#">Action</a></li>
+                                    <li><a aria-label="dropdown item another action" className="dropdown-item" href="#">Action action</a></li>
+                                    <li><a aria-label="dropdown item something else here" className="dropdown-item" href="#">Action else here</a></li>
                                     <li>
                                         <hr className="dropdown-divider" />
                                     </li>
@@ -326,7 +326,7 @@ export const InputGroupPage = () => {
 
                             <div className="input-group">
                                 <input type="text" className="form-control" aria-label="Text input with dropdown button" />
-                                <button
+                                <button aria-label='Click me'
                                     className="btn btn-outline-primary dropdown-toggle"
                                     type="button"
                                     data-bs-toggle="dropdown"
@@ -334,9 +334,9 @@ export const InputGroupPage = () => {
                                     Dropdown
                                 </button>
                                 <ul className="dropdown-menu dropdown-menu-end">
-                                    <li><a className="dropdown-item" href="#">Action</a></li>
-                                    <li><a className="dropdown-item" href="#">Another action</a></li>
-                                    <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a aria-label="dropdown item action" className="dropdown-item" href="#">Action</a></li>
+                                    <li><a aria-label="dropdown item another action" className="dropdown-item" href="#">Action action</a></li>
+                                    <li><a aria-label="dropdown item something else here" className="dropdown-item" href="#">Action else here</a></li>
                                     <li>
                                         <hr className="dropdown-divider" />
                                     </li>
@@ -345,7 +345,7 @@ export const InputGroupPage = () => {
                             </div>
 
                             <div className="input-group">
-                                <button
+                                <button aria-label='Click me'
                                     className="btn btn-outline-primary dropdown-toggle"
                                     type="button"
                                     data-bs-toggle="dropdown"
@@ -353,16 +353,16 @@ export const InputGroupPage = () => {
                                     Dropdown
                                 </button>
                                 <ul className="dropdown-menu">
-                                    <li><a className="dropdown-item" href="#">Action before</a></li>
-                                    <li><a className="dropdown-item" href="#">Another action before</a></li>
-                                    <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a aria-label="dropdown item action" className="dropdown-item" href="#">Action before</a></li>
+                                    <li><a aria-label="dropdown item another action" className="dropdown-item" href="#">Action action before</a></li>
+                                    <li><a aria-label="dropdown item something else here" className="dropdown-item" href="#">Action else here</a></li>
                                     <li>
                                         <hr className="dropdown-divider" />
                                     </li>
                                     <li><a className="dropdown-item" href="#">Separated link</a></li>
                                 </ul>
                                 <input type="text" className="form-control" aria-label="Text input with 2 dropdown buttons" />
-                                <button
+                                <button aria-label='Click me'
                                     className="btn btn-outline-primary dropdown-toggle"
                                     type="button"
                                     data-bs-toggle="dropdown"
@@ -370,9 +370,9 @@ export const InputGroupPage = () => {
                                     Dropdown
                                 </button>
                                 <ul className="dropdown-menu dropdown-menu-end">
-                                    <li><a className="dropdown-item" href="#">Action</a></li>
-                                    <li><a className="dropdown-item" href="#">Another action</a></li>
-                                    <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a aria-label="dropdown item action" className="dropdown-item" href="#">Action</a></li>
+                                    <li><a aria-label="dropdown item another action" className="dropdown-item" href="#">Action action</a></li>
+                                    <li><a aria-label="dropdown item something else here" className="dropdown-item" href="#">Action else here</a></li>
                                     <li>
                                         <hr className="dropdown-divider" />
                                     </li>
@@ -391,8 +391,8 @@ export const InputGroupPage = () => {
                                 <h5 className="card-header">Segmented buttons</h5>
                                 <div className="card-body demo-vertical-spacing demo-only-element">
                                     <div className="input-group">
-                                        <button type="button" className="btn btn-outline-primary">Action</button>
-                                        <button
+                                        <button aria-label='Click me' type="button" className="btn btn-outline-primary">Action</button>
+                                        <button aria-label='Click me'
                                             type="button"
                                             className="btn btn-outline-primary dropdown-toggle dropdown-toggle-split"
                                             data-bs-toggle="dropdown"
@@ -400,9 +400,9 @@ export const InputGroupPage = () => {
                                             <span className="visually-hidden">Toggle Dropdown</span>
                                         </button>
                                         <ul className="dropdown-menu">
-                                            <li><a className="dropdown-item" href="#">Action</a></li>
-                                            <li><a className="dropdown-item" href="#">Another action</a></li>
-                                            <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                            <li><a aria-label="dropdown item action" className="dropdown-item" href="#">Action</a></li>
+                                            <li><a aria-label="dropdown item another action" className="dropdown-item" href="#">Action action</a></li>
+                                            <li><a aria-label="dropdown item something else here" className="dropdown-item" href="#">Action else here</a></li>
                                             <li>
                                                 <hr className="dropdown-divider" />
                                             </li>
@@ -419,8 +419,8 @@ export const InputGroupPage = () => {
                                             type="text"
                                             className="form-control"
                                             aria-label="Text input with segmented dropdown button" />
-                                        <button type="button" className="btn btn-outline-primary">Action</button>
-                                        <button
+                                        <button aria-label='Click me' type="button" className="btn btn-outline-primary">Action</button>
+                                        <button aria-label='Click me'
                                             type="button"
                                             className="btn btn-outline-primary dropdown-toggle dropdown-toggle-split"
                                             data-bs-toggle="dropdown"
@@ -428,9 +428,9 @@ export const InputGroupPage = () => {
                                             <span className="visually-hidden">Toggle Dropdown</span>
                                         </button>
                                         <ul className="dropdown-menu dropdown-menu-end">
-                                            <li><a className="dropdown-item" href="#">Action</a></li>
-                                            <li><a className="dropdown-item" href="#">Another action</a></li>
-                                            <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                            <li><a aria-label="dropdown item action" className="dropdown-item" href="#">Action</a></li>
+                                            <li><a aria-label="dropdown item another action" className="dropdown-item" href="#">Action action</a></li>
+                                            <li><a aria-label="dropdown item something else here" className="dropdown-item" href="#">Action else here</a></li>
                                             <li>
                                                 <hr className="dropdown-divider" />
                                             </li>
@@ -469,7 +469,7 @@ export const InputGroupPage = () => {
                                     </div>
 
                                     <div className="input-group">
-                                        <button className="btn btn-outline-primary" type="button">Button</button>
+                                        <button aria-label='Click me' className="btn btn-outline-primary" type="button">Button</button>
                                         <select
                                             className="form-select"
                                             id="inputGroupSelect03"
@@ -491,7 +491,7 @@ export const InputGroupPage = () => {
                                             <option value="2">Two</option>
                                             <option value="3">Three</option>
                                         </select>
-                                        <button className="btn btn-outline-primary" type="button">Button</button>
+                                        <button aria-label='Click me' className="btn btn-outline-primary" type="button">Button</button>
                                     </div>
                                 </div>
                             </div>
@@ -517,7 +517,7 @@ export const InputGroupPage = () => {
                             </div>
 
                             <div className="input-group">
-                                <button className="btn btn-outline-primary" type="button" id="inputGroupFileAddon03">Button</button>
+                                <button aria-label='Click me' className="btn btn-outline-primary" type="button" id="inputGroupFileAddon03">Button</button>
                                 <input
                                     type="file"
                                     className="form-control"
@@ -533,7 +533,7 @@ export const InputGroupPage = () => {
                                     id="inputGroupFile04"
                                     aria-describedby="inputGroupFileAddon04"
                                     aria-label="Upload" />
-                                <button className="btn btn-outline-primary" type="button" id="inputGroupFileAddon04">Button</button>
+                                <button aria-label='Click me' className="btn btn-outline-primary" type="button" id="inputGroupFileAddon04">Button</button>
                             </div>
                         </div>
                     </div>

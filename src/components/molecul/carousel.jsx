@@ -10,7 +10,7 @@ const Carousel = ({ id, items, dark }) => {
                 data-bs-ride="carousel">
                 <div className="carousel-indicators">
                     {items.map((_, index) => (
-                        <button
+                        <button 
                             key={index}
                             type="button"
                             data-bs-target={`#${id}`}
@@ -23,7 +23,7 @@ const Carousel = ({ id, items, dark }) => {
                 <div className="carousel-inner">
                     {items.map((item, index) => (
                         <div key={index} className={`carousel-item ${index === 0 ? 'active' : ''}`}>
-                            <img className="d-block w-100" src={item.image} alt={`Slide ${index + 1}`} />
+                            <img className="d-block w-100" src={item.image} alt={`Slide ${index + 1}`} aria-label={item.description}/>
                             <div className="carousel-caption d-none d-md-block">
                                 <h3>{item.title}</h3>
                                 <p>{item.description}</p>

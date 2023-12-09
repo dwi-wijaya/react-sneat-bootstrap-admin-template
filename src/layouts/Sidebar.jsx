@@ -8,9 +8,9 @@ const Sidebar = () => {
     return (
         <aside id="layout-menu" className="layout-menu menu-vertical menu bg-menu-theme">
             <div className="app-brand demo">
-                <Link to="/" className="app-brand-link">
+                <Link aria-label='Go to Home Page' to="/" className="app-brand-link">
                     <span className="app-brand-logo demo">
-                        <img src="/assets/img/sneat.svg" alt="sneat-logo" />
+                        <img src="/assets/img/sneat.svg" alt="sneat-logo" aria-label='Sneat logo image' />
                     </span>
                     <span className="app-brand-text demo menu-text fw-bold ms-2">Sneat</span>
                 </Link>
@@ -46,7 +46,7 @@ const MenuItem = (item) => {
 
     return (
         <li key={item.text} className={`menu-item ${isActive || isSubmenuActive ? 'active' : ''} ${hasSubmenu && isSubmenuActive ? 'open' : ''}`}>
-            <NavLink to={item.link} className={`menu-link ${item.submenu ? 'menu-toggle' : ''}`} target={item.link.includes('http') ? '_blank' : undefined}>
+            <NavLink aria-label={`Go to ${item.text}`} to={item.link} className={`menu-link ${item.submenu ? 'menu-toggle' : ''}`} target={item.link.includes('http') ? '_blank' : undefined}>
                 <i className={`menu-icon tf-icons ${item.icon}`}></i>
                 <div>{item.text}</div> {item.available == false && (
                     <div className="badge bg-label-primary fs-tiny rounded-pill ms-auto">Pro</div>
