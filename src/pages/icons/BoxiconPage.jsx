@@ -8,7 +8,7 @@ export const BoxiconsPage = () => {
 
             <p>
                 You can check complete list of box icons from
-                <a href="https://boxicons.com/" rel='noreferrer' target="_blank">https://boxicons.com</a>
+                <a aria-label="go to boxicon web" href="https://boxicons.com/" rel='noreferrer' target="_blank">https://boxicons.com</a>
             </p>
 
             {/* <!-- Icon container --> */}
@@ -161,8 +161,8 @@ export const BoxiconsPage = () => {
 
             {/* <!-- Buttons --> */}
             <div className="d-flex justify-content-center mx-auto gap-3">
-                <a href="https://boxicons.com/" target="_blank" rel="noreferrer" className="btn btn-primary">View All Icons</a>
-                <a
+                <a aria-label="go to boxicon web" href="https://boxicons.com/" target="_blank" rel="noreferrer" className="btn btn-primary">View All Icons</a>
+                <a aria-label="go to themeselection web"
                     href="https://demos.themeselection.com/sneat-bootstrap-html-admin-template/documentation//Icons.html"
                     className="btn btn-primary"
                     target="_blank"

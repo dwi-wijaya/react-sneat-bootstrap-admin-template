@@ -20,7 +20,7 @@ export const DashboardPage = () => {
                                         sales today. Check your new badge in your profile.
                                     </p>
 
-                                    <a
+                                    <a aria-label="dropdown item"
                                         href="#"
                                         className="btn btn-sm btn-outline-primary"
                                     >
@@ -70,10 +70,10 @@ export const DashboardPage = () => {
                                                 className="dropdown-menu dropdown-menu-end"
                                                 aria-labelledby="cardOpt3"
                                             >
-                                                <a className="dropdown-item" href="#">
+                                                <a aria-label="dropdown item" className="dropdown-item" href="#">
                                                     View More
                                                 </a>
-                                                <a className="dropdown-item" href="#">
+                                                <a aria-label="dropdown item" className="dropdown-item" href="#">
                                                     Delete
                                                 </a>
                                             </div>
@@ -113,10 +113,10 @@ export const DashboardPage = () => {
                                                 className="dropdown-menu dropdown-menu-end"
                                                 aria-labelledby="cardOpt6"
                                             >
-                                                <a className="dropdown-item" href="#">
+                                                <a aria-label="dropdown item" className="dropdown-item" href="#">
                                                     View More
                                                 </a>
-                                                <a className="dropdown-item" href="#">
+                                                <a aria-label="dropdown item" className="dropdown-item" href="#">
                                                     Delete
                                                 </a>
                                             </div>
@@ -143,7 +143,7 @@ export const DashboardPage = () => {
                                 <div className="card-body">
                                     <div className="text-center">
                                         <div className="dropdown">
-                                            <button aria-label='Click me'
+                                            <button aria-label='Years'
                                                 className="btn btn-sm btn-outline-primary dropdown-toggle"
                                                 type="button"
                                                 id="growthReportId"
@@ -157,13 +157,13 @@ export const DashboardPage = () => {
                                                 className="dropdown-menu dropdown-menu-end"
                                                 aria-labelledby="growthReportId"
                                             >
-                                                <a className="dropdown-item" href="#">
+                                                <a aria-label="dropdown item" className="dropdown-item" href="#">
                                                     2021
                                                 </a>
-                                                <a className="dropdown-item" href="#">
+                                                <a aria-label="dropdown item" className="dropdown-item" href="#">
                                                     2020
                                                 </a>
-                                                <a className="dropdown-item" href="#">
+                                                <a aria-label="dropdown item" className="dropdown-item" href="#">
                                                     2019
                                                 </a>
                                             </div>
@@ -231,10 +231,10 @@ export const DashboardPage = () => {
                                                 className="dropdown-menu dropdown-menu-end"
                                                 aria-labelledby="cardOpt4"
                                             >
-                                                <a className="dropdown-item" href="#">
+                                                <a aria-label="dropdown item" className="dropdown-item" href="#">
                                                     View More
                                                 </a>
-                                                <a className="dropdown-item" href="#">
+                                                <a aria-label="dropdown item" className="dropdown-item" href="#">
                                                     Delete
                                                 </a>
                                             </div>
@@ -271,10 +271,10 @@ export const DashboardPage = () => {
                                                 <i className="bx bx-dots-vertical-rounded"></i>
                                             </button>
                                             <div className="dropdown-menu" aria-labelledby="cardOpt1">
-                                                <a className="dropdown-item" href="#">
+                                                <a aria-label="dropdown item" className="dropdown-item" href="#">
                                                     View More
                                                 </a>
-                                                <a className="dropdown-item" href="#">
+                                                <a aria-label="dropdown item" className="dropdown-item" href="#">
                                                     Delete
                                                 </a>
                                             </div>
@@ -338,13 +338,13 @@ export const DashboardPage = () => {
                                     className="dropdown-menu dropdown-menu-end"
                                     aria-labelledby="orederStatistics"
                                 >
-                                    <a className="dropdown-item" href="#">
+                                    <a aria-label="dropdown item" className="dropdown-item" href="#">
                                         Select All
                                     </a>
-                                    <a className="dropdown-item" href="#">
+                                    <a aria-label="dropdown item" className="dropdown-item" href="#">
                                         Refresh
                                     </a>
-                                    <a className="dropdown-item" href="#">
+                                    <a aria-label="dropdown item" className="dropdown-item" href="#">
                                         Share
                                     </a>
                                 </div>
@@ -436,7 +436,7 @@ export const DashboardPage = () => {
                         <div className="card-header">
                             <ul className="nav nav-pills" role="tablist">
                                 <li className="nav-item">
-                                    <button aria-label='Click me'
+                                    <button aria-label='Income'
                                         type="button"
                                         className="nav-link active"
                                         role="tab"
@@ -449,12 +449,12 @@ export const DashboardPage = () => {
                                     </button>
                                 </li>
                                 <li className="nav-item">
-                                    <button aria-label='Click me' type="button" className="nav-link" role="tab">
+                                    <button aria-label='Expenses' type="button" className="nav-link" role="tab">
                                         Expenses
                                     </button>
                                 </li>
                                 <li className="nav-item">
-                                    <button aria-label='Click me' type="button" className="nav-link" role="tab">
+                                    <button aria-label='Profit' type="button" className="nav-link" role="tab">
                                         Profit
                                     </button>
                                 </li>
@@ -509,7 +509,7 @@ export const DashboardPage = () => {
                         <div className="card-header d-flex align-items-center justify-content-between">
                             <h5 className="card-title m-0 me-2">Transactions</h5>
                             <div className="dropdown">
-                                <button aria-label='Click me'
+                                <button aria-label='Transactions'
                                     className="btn p-0"
                                     type="button"
                                     id="transactionID"
@@ -523,13 +523,13 @@ export const DashboardPage = () => {
                                     className="dropdown-menu dropdown-menu-end"
                                     aria-labelledby="transactionID"
                                 >
-                                    <a className="dropdown-item" href="#">
+                                    <a aria-label="dropdown item" className="dropdown-item" href="#">
                                         Last 28 Days
                                     </a>
-                                    <a className="dropdown-item" href="#">
+                                    <a aria-label="dropdown item" className="dropdown-item" href="#">
                                         Last Month
                                     </a>
-                                    <a className="dropdown-item" href="#">
+                                    <a aria-label="dropdown item" className="dropdown-item" href="#">
                                         Last Year
                                     </a>
                                 </div>

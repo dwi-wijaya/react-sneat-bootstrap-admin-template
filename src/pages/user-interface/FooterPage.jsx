@@ -14,6 +14,7 @@ export const FooterPage = () => {
                         className="container-fluid d-flex flex-md-row flex-column justify-content-between align-items-md-center gap-1 container-p-x py-3">
                         <div>
                             <a
+                                aria-label='go to themeselection'
                                 href="https://demos.themeselection.com/sneat-bootstrap-html-admin-template/html/vertical-menu-template/"
                                 target="_blank"
                                 rel='noreferrer'
@@ -23,10 +24,10 @@ export const FooterPage = () => {
                             ©
                         </div>
                         <div>
-                            <a href="https://themeselection.com/license/" className="footer-link me-4" target="_blank"  rel='noreferrer'>License</a>
-                            <a href="#" className="footer-link me-4">Help</a>
-                            <a href="#" className="footer-link me-4">Contact</a>
-                            <a href="#" className="footer-link">Terms &amp; Conditions</a>
+                            <a aria-label='go to themeselection' href="https://themeselection.com/license/" className="footer-link me-4" target="_blank" rel='noreferrer'>License</a>
+                            <a aria-label='go to help' href="#" className="footer-link me-4">Help</a>
+                            <a aria-label='go to contact' href="#" className="footer-link me-4">Contact</a>
+                            <a aria-label='go to terms & conditions' href="#" className="footer-link">Terms &amp; Conditions</a>
                         </div>
                     </div>
                 </footer>
@@ -43,6 +44,7 @@ export const FooterPage = () => {
                         className="container-fluid d-flex flex-md-row flex-column justify-content-between align-items-md-center gap-1 container-p-x py-3">
                         <div>
                             <a
+                                aria-label='go to themeselection'
                                 href="https://demos.themeselection.com/sneat-bootstrap-html-admin-template/html/vertical-menu-template/"
                                 target="_blank"
                                 rel='noreferrer'
@@ -66,14 +68,14 @@ export const FooterPage = () => {
                                     Currency
                                 </button>
                                 <div className="dropdown-menu dropdown-menu-end">
-                                    <a className="dropdown-item" href="#"><i className="bx bx-dollar"></i> USD</a>
-                                    <a className="dropdown-item" href="#"><i className="bx bx-euro"></i> Euro</a>
-                                    <a className="dropdown-item" href="#"><i className="bx bx-pound"></i> Pound</a>
+                                    <a aria-label='dropdown link currency' className="dropdown-item" href="#"><i className="bx bx-dollar"></i> USD</a>
+                                    <a aria-label='dropdown link currency' className="dropdown-item" href="#"><i className="bx bx-euro"></i> Euro</a>
+                                    <a aria-label='dropdown link currency' className="dropdown-item" href="#"><i className="bx bx-pound"></i> Pound</a>
                                     <div className="dropdown-divider"></div>
-                                    <a className="dropdown-item" href="#"><i className="bx bx-bitcoin"></i> Bitcoin</a>
+                                    <a aria-label='dropdown link currency' className="dropdown-item" href="#"><i className="bx bx-bitcoin"></i> Bitcoin</a>
                                 </div>
                             </div>
-                            <a href="#" className="btn btn-sm btn-outline-danger"
+                            <a aria-label='logout link' href="#" className="btn btn-sm btn-outline-danger"
                             ><i className="bx bx-log-out-circle me-1"></i>Logout</a
                             >
                         </div>

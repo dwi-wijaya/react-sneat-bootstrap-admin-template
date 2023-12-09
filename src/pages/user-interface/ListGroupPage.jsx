@@ -14,19 +14,19 @@ export const ListGroupPage = () => {
                             <small className="text-light fw-medium">Basic</small>
                             <div className="demo-inline-spacing mt-3">
                                 <div className="list-group">
-                                    <a href="#" className="list-group-item list-group-item-action active"
+                                    <a aria-label="list group action link" href="#" className="list-group-item list-group-item-action active"
                                     >Bear claw cake biscuit</a
                                     >
-                                    <a href="#" className="list-group-item list-group-item-action"
+                                    <a aria-label="list group action link" href="#" className="list-group-item list-group-item-action"
                                     >Soufflé pastry pie ice</a
                                     >
-                                    <a href="#" className="list-group-item list-group-item-action disabled"
+                                    <a aria-label="list group action link" href="#" className="list-group-item list-group-item-action disabled"
                                     >Tart tiramisu cake</a
                                     >
-                                    <a href="#" className="list-group-item list-group-item-action"
+                                    <a aria-label="list group action link" href="#" className="list-group-item list-group-item-action"
                                     >Bonbon toffee muffin</a
                                     >
-                                    <a href="#" className="list-group-item list-group-item-action"
+                                    <a aria-label="list group action link" href="#" className="list-group-item list-group-item-action"
                                     >Dragée tootsie roll</a
                                     >
                                 </div>
@@ -66,19 +66,19 @@ export const ListGroupPage = () => {
                             <small className="text-light fw-medium">Flush</small>
                             <div className="demo-inline-spacing mt-3">
                                 <div className="list-group list-group-flush">
-                                    <a href="#" className="list-group-item list-group-item-action"
+                                    <a aria-label="list group action link" href="#" className="list-group-item list-group-item-action"
                                     >Bear claw cake biscuit</a
                                     >
-                                    <a href="#" className="list-group-item list-group-item-action"
+                                    <a aria-label="list group action link" href="#" className="list-group-item list-group-item-action"
                                     >Soufflé pastry pie ice</a
                                     >
-                                    <a href="#" className="list-group-item list-group-item-action"
+                                    <a aria-label="list group action link" href="#" className="list-group-item list-group-item-action"
                                     >Tart tiramisu cake</a
                                     >
-                                    <a href="#" className="list-group-item list-group-item-action"
+                                    <a aria-label="list group action link" href="#" className="list-group-item list-group-item-action"
                                     >Bonbon toffee muffin</a
                                     >
-                                    <a href="#" className="list-group-item list-group-item-action"
+                                    <a aria-label="list group action link" href="#" className="list-group-item list-group-item-action"
                                     >Dragée tootsie roll</a
                                     >
                                 </div>
@@ -188,7 +188,7 @@ export const ListGroupPage = () => {
                             <small className="text-light fw-medium">Custom content</small>
                             <div className="demo-inline-spacing mt-3">
                                 <div className="list-group">
-                                    <a
+                                    <a aria-label="list group action link"
                                         href="#"
                                         className="list-group-item list-group-item-action flex-column align-items-start active">
                                         <div className="d-flex justify-content-between w-100">
@@ -201,7 +201,7 @@ export const ListGroupPage = () => {
                                         </p>
                                         <small>Donec id elit non mi porta.</small>
                                     </a>
-                                    <a
+                                    <a aria-label="list group action link"
                                         href="#"
                                         className="list-group-item list-group-item-action flex-column align-items-start">
                                         <div className="d-flex justify-content-between w-100">
@@ -214,7 +214,7 @@ export const ListGroupPage = () => {
                                         </p>
                                         <small className="text-muted">Donec id elit non mi porta.</small>
                                     </a>
-                                    <a
+                                    <a aria-label="list group action link"
                                         href="#"
                                         className="list-group-item list-group-item-action flex-column align-items-start">
                                         <div className="d-flex justify-content-between w-100">
@@ -246,28 +246,28 @@ export const ListGroupPage = () => {
                                 <div className="row">
                                     <div className="col-md-4 col-12 mb-3 mb-md-0">
                                         <div className="list-group">
-                                            <a
+                                            <a aria-label="list group action link"
                                                 className="list-group-item list-group-item-action active"
                                                 id="list-home-list"
                                                 data-bs-toggle="list"
                                                 href="#list-home"
                                             >Home</a
                                             >
-                                            <a
+                                            <a aria-label="list group action link"
                                                 className="list-group-item list-group-item-action"
                                                 id="list-profile-list"
                                                 data-bs-toggle="list"
                                                 href="#list-profile"
                                             >Profile</a
                                             >
-                                            <a
+                                            <a aria-label="list group action link"
                                                 className="list-group-item list-group-item-action"
                                                 id="list-messages-list"
                                                 data-bs-toggle="list"
                                                 href="#list-messages"
                                             >Messages</a
                                             >
-                                            <a
+                                            <a aria-label="list group action link"
                                                 className="list-group-item list-group-item-action"
                                                 id="list-settings-list"
                                                 data-bs-toggle="list"
@@ -319,28 +319,28 @@ export const ListGroupPage = () => {
                             <small className="text-light fw-medium">Horizontal</small>
                             <div className="demo-inline-spacing mt-3">
                                 <div className="list-group list-group-horizontal-md text-md-center">
-                                    <a
+                                    <a aria-label="list group action link"
                                         className="list-group-item list-group-item-action active"
                                         id="home-list-item"
                                         data-bs-toggle="list"
                                         href="#horizontal-home"
                                     >Home</a
                                     >
-                                    <a
+                                    <a aria-label="list group action link"
                                         className="list-group-item list-group-item-action"
                                         id="profile-list-item"
                                         data-bs-toggle="list"
                                         href="#horizontal-profile"
                                     >Profile</a
                                     >
-                                    <a
+                                    <a aria-label="list group action link"
                                         className="list-group-item list-group-item-action"
                                         id="messages-list-item"
                                         data-bs-toggle="list"
                                         href="#horizontal-messages"
                                     >Messages</a
                                     >
-                                    <a
+                                    <a aria-label="list group action link"
                                         className="list-group-item list-group-item-action"
                                         id="settings-list-item"
                                         data-bs-toggle="list"

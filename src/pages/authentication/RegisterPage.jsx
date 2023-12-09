@@ -76,7 +76,7 @@ export const RegisterPage = () => {
                         />
                         <label className="form-check-label" htmlFor="terms-conditions">
                             I agree to
-                            <a href="#"> privacy policy & terms</a>
+                            <a aria-label="pricacy policy and terms" href="#"> privacy policy & terms</a>
                         </label>
                     </div>
                 </div>

@@ -19,37 +19,37 @@ export const PaginationBreadcrumbsPage = () => {
                                 <nav aria-label="Page navigation">
                                     <ul className="pagination">
                                         <li className="page-item first">
-                                            <a className="page-link" href="#"
+                                            <a aria-label="pagination link" className="page-link" href="#"
                                             ><i className="tf-icon bx bx-chevrons-left"></i
                                             ></a>
                                         </li>
                                         <li className="page-item prev">
-                                            <a className="page-link" href="#"
+                                            <a aria-label="pagination link" className="page-link" href="#"
                                             ><i className="tf-icon bx bx-chevron-left"></i
                                             ></a>
                                         </li>
                                         <li className="page-item">
-                                            <a className="page-link" href="#">1</a>
+                                            <a aria-label="pagination link" className="page-link" href="#">1</a>
                                         </li>
                                         <li className="page-item">
-                                            <a className="page-link" href="#">2</a>
+                                            <a aria-label="pagination link" className="page-link" href="#">2</a>
                                         </li>
                                         <li className="page-item active">
-                                            <a className="page-link" href="#">3</a>
+                                            <a aria-label="pagination link" className="page-link" href="#">3</a>
                                         </li>
                                         <li className="page-item">
-                                            <a className="page-link" href="#">4</a>
+                                            <a aria-label="pagination link" className="page-link" href="#">4</a>
                                         </li>
                                         <li className="page-item">
-                                            <a className="page-link" href="#">5</a>
+                                            <a aria-label="pagination link" className="page-link" href="#">5</a>
                                         </li>
                                         <li className="page-item next">
-                                            <a className="page-link" href="#"
+                                            <a aria-label="pagination link" className="page-link" href="#"
                                             ><i className="tf-icon bx bx-chevron-right"></i
                                             ></a>
                                         </li>
                                         <li className="page-item last">
-                                            <a className="page-link" href="#"
+                                            <a aria-label="pagination link" className="page-link" href="#"
                                             ><i className="tf-icon bx bx-chevrons-right"></i
                                             ></a>
                                         </li>
@@ -72,27 +72,27 @@ export const PaginationBreadcrumbsPage = () => {
                                 <nav aria-label="Page navigation">
                                     <ul className="pagination pagination-sm">
                                         <li className="page-item prev">
-                                            <a className="page-link" href="#"
+                                            <a aria-label="pagination link" className="page-link" href="#"
                                             ><i className="tf-icon bx bx-chevrons-left"></i
                                             ></a>
                                         </li>
                                         <li className="page-item">
-                                            <a className="page-link" href="#">1</a>
+                                            <a aria-label="pagination link" className="page-link" href="#">1</a>
                                         </li>
                                         <li className="page-item">
-                                            <a className="page-link" href="#">2</a>
+                                            <a aria-label="pagination link" className="page-link" href="#">2</a>
                                         </li>
                                         <li className="page-item active">
-                                            <a className="page-link" href="#">3</a>
+                                            <a aria-label="pagination link" className="page-link" href="#">3</a>
                                         </li>
                                         <li className="page-item">
-                                            <a className="page-link" href="#">4</a>
+                                            <a aria-label="pagination link" className="page-link" href="#">4</a>
                                         </li>
                                         <li className="page-item">
-                                            <a className="page-link" href="#">5</a>
+                                            <a aria-label="pagination link" className="page-link" href="#">5</a>
                                         </li>
                                         <li className="page-item next">
-                                            <a className="page-link" href="#"
+                                            <a aria-label="pagination link" className="page-link" href="#"
                                             ><i className="tf-icon bx bx-chevrons-right"></i
                                             ></a>
                                         </li>
@@ -101,27 +101,27 @@ export const PaginationBreadcrumbsPage = () => {
                                 <nav aria-label="Page navigation">
                                     <ul className="pagination">
                                         <li className="page-item prev">
-                                            <a className="page-link" href="#"
+                                            <a aria-label="pagination link" className="page-link" href="#"
                                             ><i className="tf-icon bx bx-chevrons-left"></i
                                             ></a>
                                         </li>
                                         <li className="page-item">
-                                            <a className="page-link" href="#">1</a>
+                                            <a aria-label="pagination link" className="page-link" href="#">1</a>
                                         </li>
                                         <li className="page-item">
-                                            <a className="page-link" href="#">2</a>
+                                            <a aria-label="pagination link" className="page-link" href="#">2</a>
                                         </li>
                                         <li className="page-item active">
-                                            <a className="page-link" href="#">3</a>
+                                            <a aria-label="pagination link" className="page-link" href="#">3</a>
                                         </li>
                                         <li className="page-item">
-                                            <a className="page-link" href="#">4</a>
+                                            <a aria-label="pagination link" className="page-link" href="#">4</a>
                                         </li>
                                         <li className="page-item">
-                                            <a className="page-link" href="#">5</a>
+                                            <a aria-label="pagination link" className="page-link" href="#">5</a>
                                         </li>
                                         <li className="page-item next">
-                                            <a className="page-link" href="#"
+                                            <a aria-label="pagination link" className="page-link" href="#"
                                             ><i className="tf-icon bx bx-chevrons-right"></i
                                             ></a>
                                         </li>
@@ -130,27 +130,27 @@ export const PaginationBreadcrumbsPage = () => {
                                 <nav aria-label="Page navigation">
                                     <ul className="pagination pagination-lg">
                                         <li className="page-item prev">
-                                            <a className="page-link" href="#"
+                                            <a aria-label="pagination link" className="page-link" href="#"
                                             ><i className="tf-icon bx bx-chevrons-left"></i
                                             ></a>
                                         </li>
                                         <li className="page-item">
-                                            <a className="page-link" href="#">1</a>
+                                            <a aria-label="pagination link" className="page-link" href="#">1</a>
                                         </li>
                                         <li className="page-item">
-                                            <a className="page-link" href="#">2</a>
+                                            <a aria-label="pagination link" className="page-link" href="#">2</a>
                                         </li>
                                         <li className="page-item active">
-                                            <a className="page-link" href="#">3</a>
+                                            <a aria-label="pagination link" className="page-link" href="#">3</a>
                                         </li>
                                         <li className="page-item">
-                                            <a className="page-link" href="#">4</a>
+                                            <a aria-label="pagination link" className="page-link" href="#">4</a>
                                         </li>
                                         <li className="page-item">
-                                            <a className="page-link" href="#">5</a>
+                                            <a aria-label="pagination link" className="page-link" href="#">5</a>
                                         </li>
                                         <li className="page-item next">
-                                            <a className="page-link" href="#"
+                                            <a aria-label="pagination link" className="page-link" href="#"
                                             ><i className="tf-icon bx bx-chevrons-right"></i
                                             ></a>
                                         </li>
@@ -164,27 +164,27 @@ export const PaginationBreadcrumbsPage = () => {
                                 <nav aria-label="Page navigation">
                                     <ul className="pagination">
                                         <li className="page-item prev">
-                                            <a className="page-link" href="#"
+                                            <a aria-label="pagination link" className="page-link" href="#"
                                             ><i className="tf-icon bx bx-chevrons-left"></i
                                             ></a>
                                         </li>
                                         <li className="page-item">
-                                            <a className="page-link" href="#">1</a>
+                                            <a aria-label="pagination link" className="page-link" href="#">1</a>
                                         </li>
                                         <li className="page-item">
-                                            <a className="page-link" href="#">2</a>
+                                            <a aria-label="pagination link" className="page-link" href="#">2</a>
                                         </li>
                                         <li className="page-item active">
-                                            <a className="page-link" href="#">3</a>
+                                            <a aria-label="pagination link" className="page-link" href="#">3</a>
                                         </li>
                                         <li className="page-item">
-                                            <a className="page-link" href="#">4</a>
+                                            <a aria-label="pagination link" className="page-link" href="#">4</a>
                                         </li>
                                         <li className="page-item">
-                                            <a className="page-link" href="#">5</a>
+                                            <a aria-label="pagination link" className="page-link" href="#">5</a>
                                         </li>
                                         <li className="page-item next">
-                                            <a className="page-link" href="#"
+                                            <a aria-label="pagination link" className="page-link" href="#"
                                             ><i className="tf-icon bx bx-chevrons-right"></i
                                             ></a>
                                         </li>
@@ -193,27 +193,27 @@ export const PaginationBreadcrumbsPage = () => {
                                 <nav aria-label="Page navigation">
                                     <ul className="pagination justify-content-center">
                                         <li className="page-item prev">
-                                            <a className="page-link" href="#"
+                                            <a aria-label="pagination link" className="page-link" href="#"
                                             ><i className="tf-icon bx bx-chevrons-left"></i
                                             ></a>
                                         </li>
                                         <li className="page-item">
-                                            <a className="page-link" href="#">1</a>
+                                            <a aria-label="pagination link" className="page-link" href="#">1</a>
                                         </li>
                                         <li className="page-item">
-                                            <a className="page-link" href="#">2</a>
+                                            <a aria-label="pagination link" className="page-link" href="#">2</a>
                                         </li>
                                         <li className="page-item active">
-                                            <a className="page-link" href="#">3</a>
+                                            <a aria-label="pagination link" className="page-link" href="#">3</a>
                                         </li>
                                         <li className="page-item">
-                                            <a className="page-link" href="#">4</a>
+                                            <a aria-label="pagination link" className="page-link" href="#">4</a>
                                         </li>
                                         <li className="page-item">
-                                            <a className="page-link" href="#">5</a>
+                                            <a aria-label="pagination link" className="page-link" href="#">5</a>
                                         </li>
                                         <li className="page-item next">
-                                            <a className="page-link" href="#"
+                                            <a aria-label="pagination link" className="page-link" href="#"
                                             ><i className="tf-icon bx bx-chevrons-right"></i
                                             ></a>
                                         </li>
@@ -222,27 +222,27 @@ export const PaginationBreadcrumbsPage = () => {
                                 <nav aria-label="Page navigation">
                                     <ul className="pagination justify-content-end">
                                         <li className="page-item prev">
-                                            <a className="page-link" href="#"
+                                            <a aria-label="pagination link" className="page-link" href="#"
                                             ><i className="tf-icon bx bx-chevrons-left"></i
                                             ></a>
                                         </li>
                                         <li className="page-item">
-                                            <a className="page-link" href="#">1</a>
+                                            <a aria-label="pagination link" className="page-link" href="#">1</a>
                                         </li>
                                         <li className="page-item">
-                                            <a className="page-link" href="#">2</a>
+                                            <a aria-label="pagination link" className="page-link" href="#">2</a>
                                         </li>
                                         <li className="page-item active">
-                                            <a className="page-link" href="#">3</a>
+                                            <a aria-label="pagination link" className="page-link" href="#">3</a>
                                         </li>
                                         <li className="page-item">
-                                            <a className="page-link" href="#">4</a>
+                                            <a aria-label="pagination link" className="page-link" href="#">4</a>
                                         </li>
                                         <li className="page-item">
-                                            <a className="page-link" href="#">5</a>
+                                            <a aria-label="pagination link" className="page-link" href="#">5</a>
                                         </li>
                                         <li className="page-item next">
-                                            <a className="page-link" href="#"
+                                            <a aria-label="pagination link" className="page-link" href="#"
                                             ><i className="tf-icon bx bx-chevrons-right"></i
                                             ></a>
                                         </li>
@@ -263,10 +263,10 @@ export const PaginationBreadcrumbsPage = () => {
                     <nav aria-label="breadcrumb">
                         <ol className="breadcrumb">
                             <li className="breadcrumb-item">
-                                <a href="#">Home</a>
+                                <a aria-label="pagination link" href="#">Home</a>
                             </li>
                             <li className="breadcrumb-item">
-                                <a href="#">Library</a>
+                                <a aria-label="pagination link" href="#">Library</a>
                             </li>
                             <li className="breadcrumb-item active">Data</li>
                         </ol>
@@ -276,10 +276,10 @@ export const PaginationBreadcrumbsPage = () => {
                     <nav aria-label="breadcrumb">
                         <ol className="breadcrumb breadcrumb-style1">
                             <li className="breadcrumb-item">
-                                <a href="#">Home</a>
+                                <a aria-label="pagination link" href="#">Home</a>
                             </li>
                             <li className="breadcrumb-item">
-                                <a href="#">Library</a>
+                                <a aria-label="pagination link" href="#">Library</a>
                             </li>
                             <li className="breadcrumb-item active">Data</li>
                         </ol>
@@ -289,10 +289,10 @@ export const PaginationBreadcrumbsPage = () => {
                     <nav aria-label="breadcrumb">
                         <ol className="breadcrumb breadcrumb-style2 mb-0">
                             <li className="breadcrumb-item">
-                                <a href="#">Home</a>
+                                <a aria-label="pagination link" href="#">Home</a>
                             </li>
                             <li className="breadcrumb-item">
-                                <a href="#">Library</a>
+                                <a aria-label="pagination link" href="#">Library</a>
                             </li>
                             <li className="breadcrumb-item active">Data</li>
                         </ol>

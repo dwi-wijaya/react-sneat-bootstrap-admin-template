@@ -21,13 +21,13 @@ export const DropdownPage = () => {
                                 Primary
                             </button>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><a className="dropdown-item disabled" href="#">Something else here</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Another action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item disabled" href="#">Something else here</a></li>
                                 <li>
                                     <hr className="dropdown-divider" />
                                 </li>
-                                <li><a className="dropdown-item" href="#">Separated link</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Separated link</a></li>
                             </ul>
                         </div>
 
@@ -40,13 +40,13 @@ export const DropdownPage = () => {
                                 Secondary
                             </button>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Another action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Something else here</a></li>
                                 <li>
                                     <hr className="dropdown-divider" />
                                 </li>
-                                <li><a className="dropdown-item" href="#">Separated link</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Separated link</a></li>
                             </ul>
                         </div>
 
@@ -59,13 +59,13 @@ export const DropdownPage = () => {
                                 Success
                             </button>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Another action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Something else here</a></li>
                                 <li>
                                     <hr className="dropdown-divider" />
                                 </li>
-                                <li><a className="dropdown-item" href="#">Separated link</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Separated link</a></li>
                             </ul>
                         </div>
 
@@ -78,13 +78,13 @@ export const DropdownPage = () => {
                                 Danger
                             </button>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Another action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Something else here</a></li>
                                 <li>
                                     <hr className="dropdown-divider" />
                                 </li>
-                                <li><a className="dropdown-item" href="#">Separated link</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Separated link</a></li>
                             </ul>
                         </div>
 
@@ -97,13 +97,13 @@ export const DropdownPage = () => {
                                 Warning
                             </button>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Another action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Something else here</a></li>
                                 <li>
                                     <hr className="dropdown-divider" />
                                 </li>
-                                <li><a className="dropdown-item" href="#">Separated link</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Separated link</a></li>
                             </ul>
                         </div>
 
@@ -116,13 +116,13 @@ export const DropdownPage = () => {
                                 Info
                             </button>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Another action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Something else here</a></li>
                                 <li>
                                     <hr className="dropdown-divider" />
                                 </li>
-                                <li><a className="dropdown-item" href="#">Separated link</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Separated link</a></li>
                             </ul>
                         </div>
                     </div>
@@ -144,13 +144,13 @@ export const DropdownPage = () => {
                                 Primary
                             </button>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Another action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Something else here</a></li>
                                 <li>
                                     <hr className="dropdown-divider" />
                                 </li>
-                                <li><a className="dropdown-item" href="#">Separated link</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Separated link</a></li>
                             </ul>
                         </div>
 
@@ -163,13 +163,13 @@ export const DropdownPage = () => {
                                 Secondary
                             </button>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Another action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Something else here</a></li>
                                 <li>
                                     <hr className="dropdown-divider" />
                                 </li>
-                                <li><a className="dropdown-item" href="#">Separated link</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Separated link</a></li>
                             </ul>
                         </div>
 
@@ -182,13 +182,13 @@ export const DropdownPage = () => {
                                 Success
                             </button>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Another action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Something else here</a></li>
                                 <li>
                                     <hr className="dropdown-divider" />
                                 </li>
-                                <li><a className="dropdown-item" href="#">Separated link</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Separated link</a></li>
                             </ul>
                         </div>
 
@@ -201,13 +201,13 @@ export const DropdownPage = () => {
                                 Danger
                             </button>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Another action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Something else here</a></li>
                                 <li>
                                     <hr className="dropdown-divider" />
                                 </li>
-                                <li><a className="dropdown-item" href="#">Separated link</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Separated link</a></li>
                             </ul>
                         </div>
 
@@ -220,13 +220,13 @@ export const DropdownPage = () => {
                                 Warning
                             </button>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Another action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Something else here</a></li>
                                 <li>
                                     <hr className="dropdown-divider" />
                                 </li>
-                                <li><a className="dropdown-item" href="#">Separated link</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Separated link</a></li>
                             </ul>
                         </div>
 
@@ -239,13 +239,13 @@ export const DropdownPage = () => {
                                 Info
                             </button>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Another action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Something else here</a></li>
                                 <li>
                                     <hr className="dropdown-divider" />
                                 </li>
-                                <li><a className="dropdown-item" href="#">Separated link</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Separated link</a></li>
                             </ul>
                         </div>
                     </div>
@@ -266,13 +266,13 @@ export const DropdownPage = () => {
                                 <span className="visually-hidden">Toggle Dropdown</span>
                             </button>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Another action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Something else here</a></li>
                                 <li>
                                     <hr className="dropdown-divider" />
                                 </li>
-                                <li><a className="dropdown-item" href="#">Separated link</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Separated link</a></li>
                             </ul>
                         </div>
 
@@ -286,13 +286,13 @@ export const DropdownPage = () => {
                                 <span className="visually-hidden">Toggle Dropdown</span>
                             </button>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Another action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Something else here</a></li>
                                 <li>
                                     <hr className="dropdown-divider" />
                                 </li>
-                                <li><a className="dropdown-item" href="#">Separated link</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Separated link</a></li>
                             </ul>
                         </div>
 
@@ -306,13 +306,13 @@ export const DropdownPage = () => {
                                 <span className="visually-hidden">Toggle Dropdown</span>
                             </button>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Another action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Something else here</a></li>
                                 <li>
                                     <hr className="dropdown-divider" />
                                 </li>
-                                <li><a className="dropdown-item" href="#">Separated link</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Separated link</a></li>
                             </ul>
                         </div>
 
@@ -326,13 +326,13 @@ export const DropdownPage = () => {
                                 <span className="visually-hidden">Toggle Dropdown</span>
                             </button>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Another action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Something else here</a></li>
                                 <li>
                                     <hr className="dropdown-divider" />
                                 </li>
-                                <li><a className="dropdown-item" href="#">Separated link</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Separated link</a></li>
                             </ul>
                         </div>
 
@@ -346,13 +346,13 @@ export const DropdownPage = () => {
                                 <span className="visually-hidden">Toggle Dropdown</span>
                             </button>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Another action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Something else here</a></li>
                                 <li>
                                     <hr className="dropdown-divider" />
                                 </li>
-                                <li><a className="dropdown-item" href="#">Separated link</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Separated link</a></li>
                             </ul>
                         </div>
 
@@ -366,13 +366,13 @@ export const DropdownPage = () => {
                                 <span className="visually-hidden">Toggle Dropdown</span>
                             </button>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Another action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Something else here</a></li>
                                 <li>
                                     <hr className="dropdown-divider" />
                                 </li>
-                                <li><a className="dropdown-item" href="#">Separated link</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Separated link</a></li>
                             </ul>
                         </div>
                     </div>
@@ -396,13 +396,13 @@ export const DropdownPage = () => {
                                         Hidden arrow
                                     </button>
                                     <ul className="dropdown-menu">
-                                        <li><a className="dropdown-item" href="#">Action</a></li>
-                                        <li><a className="dropdown-item" href="#">Another action</a></li>
-                                        <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                        <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Action</a></li>
+                                        <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Another action</a></li>
+                                        <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Something else here</a></li>
                                         <li>
                                             <hr className="dropdown-divider" />
                                         </li>
-                                        <li><a className="dropdown-item" href="#">Separated link</a></li>
+                                        <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Separated link</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -422,17 +422,17 @@ export const DropdownPage = () => {
                                     </button>
                                     <ul className="dropdown-menu">
                                         <li>
-                                            <a href="#" className="dropdown-item d-flex align-items-center"
+                                            <a aria-label="dropdown action link" href="#" className="dropdown-item d-flex align-items-center"
                                             ><i className="bx bx-chevron-right scaleX-n1-rtl"></i>Action</a
                                             >
                                         </li>
                                         <li>
-                                            <a href="#" className="dropdown-item d-flex align-items-center"
+                                            <a aria-label="dropdown action link" href="#" className="dropdown-item d-flex align-items-center"
                                             ><i className="bx bx-chevron-right scaleX-n1-rtl"></i>Another action</a
                                             >
                                         </li>
                                         <li>
-                                            <a href="#" className="dropdown-item d-flex align-items-center"
+                                            <a aria-label="dropdown action link" href="#" className="dropdown-item d-flex align-items-center"
                                             ><i className="bx bx-chevron-right scaleX-n1-rtl"></i>Something else here</a
                                             >
                                         </li>
@@ -440,7 +440,7 @@ export const DropdownPage = () => {
                                             <hr className="dropdown-divider" />
                                         </li>
                                         <li>
-                                            <a href="#" className="dropdown-item d-flex align-items-center"
+                                            <a aria-label="dropdown action link" href="#" className="dropdown-item d-flex align-items-center"
                                             ><i className="bx bx-chevron-right scaleX-n1-rtl"></i>Separated link</a
                                             >
                                         </li>
@@ -462,13 +462,13 @@ export const DropdownPage = () => {
                                         <i className="bx bx-dots-vertical-rounded"></i>
                                     </button>
                                     <ul className="dropdown-menu dropdown-menu-end">
-                                        <li><a className="dropdown-item" href="#">Action</a></li>
-                                        <li><a className="dropdown-item" href="#">Another action</a></li>
-                                        <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                        <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Action</a></li>
+                                        <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Another action</a></li>
+                                        <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Something else here</a></li>
                                         <li>
                                             <hr className="dropdown-divider" />
                                         </li>
-                                        <li><a className="dropdown-item" href="#">Separated link</a></li>
+                                        <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Separated link</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -552,13 +552,13 @@ export const DropdownPage = () => {
                                 Extra large button
                             </button>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Another action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Something else here</a></li>
                                 <li>
                                     <hr className="dropdown-divider" />
                                 </li>
-                                <li><a className="dropdown-item" href="#">Separated link</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Separated link</a></li>
                             </ul>
                         </div>
 
@@ -571,13 +571,13 @@ export const DropdownPage = () => {
                                 Large button
                             </button>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Another action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Something else here</a></li>
                                 <li>
                                     <hr className="dropdown-divider" />
                                 </li>
-                                <li><a className="dropdown-item" href="#">Separated link</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Separated link</a></li>
                             </ul>
                         </div>
 
@@ -590,13 +590,13 @@ export const DropdownPage = () => {
                                 Small button
                             </button>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Another action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Something else here</a></li>
                                 <li>
                                     <hr className="dropdown-divider" />
                                 </li>
-                                <li><a className="dropdown-item" href="#">Separated link</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Separated link</a></li>
                             </ul>
                         </div>
 
@@ -609,13 +609,13 @@ export const DropdownPage = () => {
                                 Extra small button
                             </button>
                             <ul className="dropdown-menu">
-                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Another action</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Something else here</a></li>
                                 <li>
                                     <hr className="dropdown-divider" />
                                 </li>
-                                <li><a className="dropdown-item" href="#">Separated link</a></li>
+                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Separated link</a></li>
                             </ul>
                         </div>
                     </div>
@@ -640,13 +640,13 @@ export const DropdownPage = () => {
                                                 Dropdown
                                             </button>
                                             <ul className="dropdown-menu">
-                                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Action</a></li>
+                                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Another action</a></li>
+                                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Something else here</a></li>
                                                 <li>
                                                     <hr className="dropdown-divider" />
                                                 </li>
-                                                <li><a className="dropdown-item" href="#">Separated link</a></li>
+                                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Separated link</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -663,13 +663,13 @@ export const DropdownPage = () => {
                                                 Dropup
                                             </button>
                                             <ul className="dropdown-menu">
-                                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Action</a></li>
+                                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Another action</a></li>
+                                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Something else here</a></li>
                                                 <li>
                                                     <hr className="dropdown-divider" />
                                                 </li>
-                                                <li><a className="dropdown-item" href="#">Separated link</a></li>
+                                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Separated link</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -686,13 +686,13 @@ export const DropdownPage = () => {
                                                 Dropend
                                             </button>
                                             <ul className="dropdown-menu">
-                                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Action</a></li>
+                                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Another action</a></li>
+                                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Something else here</a></li>
                                                 <li>
                                                     <hr className="dropdown-divider" />
                                                 </li>
-                                                <li><a className="dropdown-item" href="#">Separated link</a></li>
+                                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Separated link</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -708,13 +708,13 @@ export const DropdownPage = () => {
                                                 Dropstart
                                             </button>
                                             <ul className="dropdown-menu">
-                                                <li><a className="dropdown-item" href="#">Action</a></li>
-                                                <li><a className="dropdown-item" href="#">Another action</a></li>
-                                                <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Action</a></li>
+                                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Another action</a></li>
+                                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Something else here</a></li>
                                                 <li>
                                                     <hr className="dropdown-divider" />
                                                 </li>
-                                                <li><a className="dropdown-item" href="#">Separated link</a></li>
+                                                <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Separated link</a></li>
                                             </ul>
                                         </div>
                                     </div>
@@ -739,8 +739,8 @@ export const DropdownPage = () => {
                                         <li>
                                             <h6 className="dropdown-header text-uppercase">Dropdown header</h6>
                                         </li>
-                                        <li><a className="dropdown-item" href="#">Action</a></li>
-                                        <li><a className="dropdown-item" href="#">Another action</a></li>
+                                        <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Action</a></li>
+                                        <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Another action</a></li>
                                     </ul>
                                 </div>
                                 <div className="btn-group">
@@ -753,13 +753,13 @@ export const DropdownPage = () => {
                                         Divider
                                     </button>
                                     <ul className="dropdown-menu">
-                                        <li><a className="dropdown-item" href="#">Action</a></li>
-                                        <li><a className="dropdown-item" href="#">Another action</a></li>
-                                        <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                        <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Action</a></li>
+                                        <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Another action</a></li>
+                                        <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Something else here</a></li>
                                         <li>
                                             <hr className="dropdown-divider" />
                                         </li>
-                                        <li><a className="dropdown-item" href="#">Separated link</a></li>
+                                        <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Separated link</a></li>
                                     </ul>
                                 </div>
                                 <div className="btn-group">
@@ -814,8 +814,8 @@ export const DropdownPage = () => {
                                             <button aria-label='Click me' type="button" className="btn btn-primary">Sign in</button>
                                         </form>
                                         <div className="dropdown-divider"></div>
-                                        <a className="dropdown-item" href="#">New around here? Sign up</a>
-                                        <a className="dropdown-item" href="#">Forgot password?</a>
+                                        <a aria-label="dropdown action link" className="dropdown-item" href="#">New around here? Sign up</a>
+                                        <a aria-label="dropdown action link" className="dropdown-item" href="#">Forgot password?</a>
                                     </div>
                                 </div>
                             </div>
@@ -845,9 +845,9 @@ export const DropdownPage = () => {
                                         Offset
                                     </button>
                                     <ul className="dropdown-menu" aria-labelledby="dropdownMenuOffset">
-                                        <li><a className="dropdown-item" href="#">Action</a></li>
-                                        <li><a className="dropdown-item" href="#">Another action</a></li>
-                                        <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                        <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Action</a></li>
+                                        <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Another action</a></li>
+                                        <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Something else here</a></li>
                                     </ul>
                                 </div>
                                 <div className="btn-group">
@@ -862,13 +862,13 @@ export const DropdownPage = () => {
                                         <span className="visually-hidden">Toggle Dropdown</span>
                                     </button>
                                     <ul className="dropdown-menu" aria-labelledby="dropdownMenuReference">
-                                        <li><a className="dropdown-item" href="#">Action</a></li>
-                                        <li><a className="dropdown-item" href="#">Another action</a></li>
-                                        <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                        <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Action</a></li>
+                                        <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Another action</a></li>
+                                        <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Something else here</a></li>
                                         <li>
                                             <hr className="dropdown-divider" />
                                         </li>
-                                        <li><a className="dropdown-item" href="#">Separated link</a></li>
+                                        <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Separated link</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -889,9 +889,9 @@ export const DropdownPage = () => {
                                         Default
                                     </button>
                                     <ul className="dropdown-menu" aria-labelledby="defaultDropdown">
-                                        <li><a className="dropdown-item" href="#">Menu item</a></li>
-                                        <li><a className="dropdown-item" href="#">Menu item</a></li>
-                                        <li><a className="dropdown-item" href="#">Menu item</a></li>
+                                        <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Menu item</a></li>
+                                        <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Menu item</a></li>
+                                        <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Menu item</a></li>
                                     </ul>
                                 </div>
                                 <div className="btn-group">
@@ -905,9 +905,9 @@ export const DropdownPage = () => {
                                         Clickable outside
                                     </button>
                                     <ul className="dropdown-menu" aria-labelledby="dropdownMenuClickableOutside">
-                                        <li><a className="dropdown-item" href="#">Menu item</a></li>
-                                        <li><a className="dropdown-item" href="#">Menu item</a></li>
-                                        <li><a className="dropdown-item" href="#">Menu item</a></li>
+                                        <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Menu item</a></li>
+                                        <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Menu item</a></li>
+                                        <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Menu item</a></li>
                                     </ul>
                                 </div>
                                 <div className="btn-group">
@@ -921,9 +921,9 @@ export const DropdownPage = () => {
                                         Clickable inside
                                     </button>
                                     <ul className="dropdown-menu" aria-labelledby="dropdownMenuClickableInside">
-                                        <li><a className="dropdown-item" href="#">Menu item</a></li>
-                                        <li><a className="dropdown-item" href="#">Menu item</a></li>
-                                        <li><a className="dropdown-item" href="#">Menu item</a></li>
+                                        <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Menu item</a></li>
+                                        <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Menu item</a></li>
+                                        <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Menu item</a></li>
                                     </ul>
                                 </div>
                                 <div className="btn-group">
@@ -937,9 +937,9 @@ export const DropdownPage = () => {
                                         Manual close
                                     </button>
                                     <ul className="dropdown-menu" aria-labelledby="dropdownMenuClickable">
-                                        <li><a className="dropdown-item" href="#">Menu item</a></li>
-                                        <li><a className="dropdown-item" href="#">Menu item</a></li>
-                                        <li><a className="dropdown-item" href="#">Menu item</a></li>
+                                        <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Menu item</a></li>
+                                        <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Menu item</a></li>
+                                        <li><a aria-label="dropdown action link" className="dropdown-item" href="#">Menu item</a></li>
                                     </ul>
                                 </div>
                             </div>

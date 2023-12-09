@@ -9,7 +9,7 @@ export const NavbarPage = () => {
             <h5 className="pb-1 mt-5 mb-4">Example</h5>
             <nav className="navbar navbar-expand-lg navbar-light bg-light mb-5">
                 <div className="container-fluid">
-                    <a className="navbar-brand" href="#">Navbar</a>
+                    <a aria-label="navbar link" className="navbar-brand" href="#">Navbar</a>
                     <button 
                         className="navbar-toggler"
                         type="button"
@@ -23,13 +23,13 @@ export const NavbarPage = () => {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link active" aria-current="page" href="#">Home</a>
+                                <a aria-label="navbar dropdown link" className="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#">Link</a>
+                                <a aria-label="navbar dropdown link" className="nav-link" href="#">Link</a>
                             </li>
                             <li className="nav-item dropdown">
-                                <a
+                                <a aria-label="navbar dropdown link"
                                     className="nav-link dropdown-toggle"
                                     href="#"
                                     id="navbarDropdown"
@@ -39,16 +39,16 @@ export const NavbarPage = () => {
                                     Dropdown
                                 </a>
                                 <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a className="dropdown-item" href="#">Action</a></li>
-                                    <li><a className="dropdown-item" href="#">Another action</a></li>
+                                    <li><a aria-label="navbar dropdown link" className="dropdown-item" href="#">Action</a></li>
+                                    <li><a aria-label="navbar dropdown link" className="dropdown-item" href="#">Another action</a></li>
                                     <li>
                                         <hr className="dropdown-divider" />
                                     </li>
-                                    <li><a className="dropdown-item" href="#">Something else here</a></li>
+                                    <li><a aria-label="navbar dropdown link" className="dropdown-item" href="#">Something else here</a></li>
                                 </ul>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link disabled" href="#" tabIndex="-1">Disabled</a>
+                                <a aria-label="navbar dropdown link" className="nav-link disabled" href="#" tabIndex="-1">Disabled</a>
                             </li>
                         </ul>
                         <form className="d-flex" onSubmit={(e) => e.preventDefault()}>
@@ -66,7 +66,7 @@ export const NavbarPage = () => {
                 <h6 className="mt-2 mb-3 text-muted">Text</h6>
                 <nav className="navbar navbar-example navbar-expand-lg navbar-light bg-light">
                     <div className="container-fluid">
-                        <a className="navbar-brand" href="#">Navbar</a>
+                        <a aria-label="navbar link" className="navbar-brand" href="#">Navbar</a>
                         <button 
                             className="navbar-toggler"
                             type="button"
@@ -79,9 +79,9 @@ export const NavbarPage = () => {
                         </button>
                         <div className="collapse navbar-collapse" id="navbar-ex-2">
                             <div className="navbar-nav me-auto">
-                                <a className="nav-item nav-link active" href="#">Home</a>
-                                <a className="nav-item nav-link" href="#">About</a>
-                                <a className="nav-item nav-link" href="#">Contact</a>
+                                <a aria-label="navbar link" className="nav-item nav-link active" href="#">Home</a>
+                                <a aria-label="navbar link" className="nav-item nav-link" href="#">About</a>
+                                <a aria-label="navbar link" className="nav-item nav-link" href="#">Contact</a>
                             </div>
 
                             <span className="navbar-text">Marshmallow brownie lemon drops cheesecake.</span>
@@ -92,7 +92,7 @@ export const NavbarPage = () => {
                 <h6 className="mt-4 mb-3 text-muted">Input Group</h6>
                 <nav className="navbar navbar-example navbar-expand-lg bg-light">
                     <div className="container-fluid">
-                        <a className="navbar-brand" href="#">Navbar</a>
+                        <a aria-label="navbar link" className="navbar-brand" href="#">Navbar</a>
                         <button aria-label='Click me'
                             className="navbar-toggler"
                             type="button"
@@ -103,9 +103,9 @@ export const NavbarPage = () => {
 
                         <div className="collapse navbar-collapse" id="navbar-ex-4">
                             <div className="navbar-nav me-auto">
-                                <a className="nav-item nav-link active" href="#">Home</a>
-                                <a className="nav-item nav-link" href="#">About</a>
-                                <a className="nav-item nav-link" href="#">Contact</a>
+                                <a aria-label="navbar link" className="nav-item nav-link active" href="#">Home</a>
+                                <a aria-label="navbar link" className="nav-item nav-link" href="#">About</a>
+                                <a aria-label="navbar link" className="nav-item nav-link" href="#">Contact</a>
                             </div>
 
                             <form className="d-flex">
@@ -121,7 +121,7 @@ export const NavbarPage = () => {
                 <h6 className="mt-4 mb-3 text-muted">Button</h6>
                 <nav className="navbar navbar-example navbar-expand-lg bg-light">
                     <div className="container-fluid">
-                        <a className="navbar-brand" href="#">Navbar</a>
+                        <a aria-label="navbar link" className="navbar-brand" href="#">Navbar</a>
                         <button aria-label='Click me'
                             className="navbar-toggler"
                             type="button"
@@ -132,9 +132,9 @@ export const NavbarPage = () => {
 
                         <div className="collapse navbar-collapse" id="navbar-ex-3">
                             <div className="navbar-nav me-auto">
-                                <a className="nav-item nav-link active" href="#">Home</a>
-                                <a className="nav-item nav-link" href="#">About</a>
-                                <a className="nav-item nav-link" href="#">Contact</a>
+                                <a aria-label="navbar link" className="nav-item nav-link active" href="#">Home</a>
+                                <a aria-label="navbar link" className="nav-item nav-link" href="#">About</a>
+                                <a aria-label="navbar link" className="nav-item nav-link" href="#">Contact</a>
                             </div>
 
                             <form onSubmit={(e) => e.preventDefault()}>
