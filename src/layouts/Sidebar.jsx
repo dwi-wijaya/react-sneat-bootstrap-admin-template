@@ -10,7 +10,7 @@ const Sidebar = () => {
             <div className="app-brand demo">
                 <Link to="/" className="app-brand-link">
                     <span className="app-brand-logo demo">
-                        <img src="/assets/img/sneat.svg" alt="" />
+                        <img src="/assets/img/sneat.svg" alt="sneat-logo" />
                     </span>
                     <span className="app-brand-text demo menu-text fw-bold ms-2">Sneat</span>
                 </Link>

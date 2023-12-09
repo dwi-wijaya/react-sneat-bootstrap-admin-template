@@ -10,7 +10,7 @@ export const AuthWrapper = ({ children }) => {
                         <div className="app-brand justify-content-center">
                             <Link to="/" className="app-brand-link gap-2">
                                 <span className="app-brand-logo demo">
-                                    <img src="/assets/img/sneat.svg" alt="" />
+                                    <img src="/assets/img/sneat.svg" alt="sneat-logo" />
                                 </span>
                                 <span className="app-brand-text demo text-body fw-bold">Sneat</span>
                             </Link>
