@@ -143,7 +143,7 @@ export const DashboardPage = () => {
                                 <div className="card-body">
                                     <div className="text-center">
                                         <div className="dropdown">
-                                            <button aria-label='Years'
+                                            <button aria-label='Years selection 2022'
                                                 className="btn btn-sm btn-outline-primary dropdown-toggle"
                                                 type="button"
                                                 id="growthReportId"
@@ -436,7 +436,8 @@ export const DashboardPage = () => {
                         <div className="card-header">
                             <ul className="nav nav-pills" role="tablist">
                                 <li className="nav-item">
-                                    <button aria-label='Income'
+                                    <button
+                                        aria-label='Select Income Tab'
                                         type="button"
                                         className="nav-link active"
                                         role="tab"
@@ -449,12 +450,30 @@ export const DashboardPage = () => {
                                     </button>
                                 </li>
                                 <li className="nav-item">
-                                    <button aria-label='Expenses' type="button" className="nav-link" role="tab">
+                                    <button
+                                        aria-label='Select Expenses Tab'
+                                        type="button"
+                                        className="nav-link"
+                                        role="tab"
+                                        data-bs-toggle="tab"
+                                        data-bs-target="#navs-tabs-line-card-expenses"
+                                        aria-controls="navs-tabs-line-card-expenses"
+                                        aria-selected="false"
+                                    >
                                         Expenses
                                     </button>
                                 </li>
                                 <li className="nav-item">
-                                    <button aria-label='Profit' type="button" className="nav-link" role="tab">
+                                    <button
+                                        aria-label='Select Profit Tab'
+                                        type="button"
+                                        className="nav-link"
+                                        role="tab"
+                                        data-bs-toggle="tab"
+                                        data-bs-target="#navs-tabs-line-card-profit"
+                                        aria-controls="navs-tabs-line-card-profit"
+                                        aria-selected="false"
+                                    >
                                         Profit
                                     </button>
                                 </li>
@@ -466,10 +485,12 @@ export const DashboardPage = () => {
                                     className="tab-pane fade show active"
                                     id="navs-tabs-line-card-income"
                                     role="tabpanel"
+                                    aria-labelledby="navs-tabs-line-card-income"
                                 >
                                     <div className="d-flex p-4 pt-3">
                                         <div className="avatar flex-shrink-0 me-3">
-                                            <img aria-label='dsahboard icon image'
+                                            <img
+                                                aria-label='Dashboard Icon Image'
                                                 src="/assets/img/icons/unicons/wallet.png"
                                                 alt="User"
                                             />
@@ -482,15 +503,15 @@ export const DashboardPage = () => {
                                                 <h6 className="mb-0 me-1">$459.10</h6>
                                                 <small className="text-success fw-medium">
                                                     <i className="bx bx-chevron-up"></i>
-                                                    42.9%
+                                                    42.9% Increase
                                                 </small>
                                             </div>
                                         </div>
                                     </div>
-                                    <div id="incomeChart"></div>
+                                    <div id="incomeChart" aria-label="Income Chart"></div>
                                     <div className="d-flex justify-content-center pt-4 gap-2">
                                         <div className="flex-shrink-0">
-                                            <div id="expensesOfWeek"></div>
+                                            <div id="expensesOfWeek" aria-label="Expenses of the Week"></div>
                                         </div>
                                         <div>
                                             <p className="mb-n1 mt-1">Expenses This Week</p>
@@ -504,6 +525,7 @@ export const DashboardPage = () => {
                         </div>
                     </div>
                 </div>
+
                 <div className="col-md-6 col-lg-4 order-2 mb-4">
                     <div className="card h-100">
                         <div className="card-header d-flex align-items-center justify-content-between">
