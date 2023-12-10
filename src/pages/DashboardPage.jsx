@@ -509,10 +509,10 @@ export const DashboardPage = () => {
                                             </div>
                                         </div>
                                     </div>
-                                    <div id="incomeChart" aria-label="Income Chart"></div>
+                                    <div id="incomeChart Jan Feb Mar Apr May Jun Jul" aria-label="Income Chart"></div>
                                     <div className="d-flex justify-content-center pt-4 gap-2">
                                         <div className="flex-shrink-0">
-                                            <div id="expensesOfWeek" aria-label="Expenses of the Week"></div>
+                                            <div id="expensesOfWeek" aria-label="Expenses of the Week $65"></div>
                                         </div>
                                         <div>
                                             <p className="mb-n1 mt-1">Expenses This Week</p>
